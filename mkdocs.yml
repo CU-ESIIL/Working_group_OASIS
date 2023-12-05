@@ -4,8 +4,8 @@ site_author: Ty Tuff
 site_url: https://cu-esiil.github.io/working_groups_home
 
 # Repository
-repo_name: TODO: Uncomment and change this to your repositories name Ex: analytics-library
-repo_url: TODO: Uncomment and change this to your repositories url https://github.com/cu-esiil/analytics-library
+repo_name: working-group-home
+repo_url: https://github.com/cu-esiil/working_groups_home
 edit_uri: edit/main/docs/
 # Copyright
 copyright: 'Copyright &copy; 2023 University of Colorado Boulder'
