@@ -1,7 +1,7 @@
 site_name: 'ESIIL Working Group Home'
 site_description: 'Central resource for ESIIL working groups'
 site_author: Ty Tuff
-site_url: 'https://cu-esiil.github.io/Working_group_home'
+site_url: https://cu-esiil.github.io/Working_group_home
 
 # Repository
 repo_name: Working-group-home
@@ -57,7 +57,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-     # link: https://cu-esiil.github.io/working_groups_home
+      link: https://github.com/cu-esiil/
 
 extra_css:
   - stylesheets/extra.css
