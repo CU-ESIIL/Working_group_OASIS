@@ -24,8 +24,8 @@ theme:
   font:
     text: 'Open Sans'
     code: 'Roboto Mono'
-  #logo: # TODO: Uncomment and add path to your logo .png Ex: 'assets/ESIIL_logo.png'
-  #favicon: # TODO: Uncomment and add path to your favicon .png Ex: 'assets/favicon.ico'
+  logo: 'assets/ESIIL_logo.png'
+  favicon: 'assets/favicon.ico'
   # setting features for the navigation tab
   features:
     - navigation.sections
@@ -57,7 +57,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      # link: # TODO: Uncomment and change to your github pages URL Ex: https://cu-esiil.github.io/analytics-library
+      link: https://cu-esiil.github.io/working_groups_home
 
 extra_css:
   - stylesheets/extra.css
