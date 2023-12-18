@@ -1,2 +1,2 @@
-# Working_group_home
-This is the central hub for information pertaining to ESIIL working groups
+# Working groups OASIS
+Template for Working groups to make their own OASIS
