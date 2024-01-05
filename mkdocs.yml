@@ -31,9 +31,9 @@ nav:
        - Visualizations: resources/visualizations.md 
   - Manuscript drafts:
        - Manuscript: resources/manuscript.md
-  #- References:
-#	- Notes from readings: resources/notes_from_readings.md
- #       - Citations: resources/citations.md
+  - References:
+       - Notes from readings: resources/notes_from_readings.md
+       - Citations: resources/citations.md
 
 # Configuration
 theme:
