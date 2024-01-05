@@ -25,11 +25,11 @@ nav:
        - Second meeting: resources/second_meeting_notes.md
        - Third meeting: resources/third_meeting_notes.md
        - Post-meetings: resources/post_meeting_notes.md
+  - Code documentation:
+       - Data processing: resources/data_processing.md
+       - Data analysis: resources/data_analysis.md
+       - Visualizations: resources/visualizations.md 
   
-  - Data processing: resources/data_processing.md
-  - Data analysis: resources/data_analysis.md
-  - Visualizations: resources/visualizations.md 
-
 
 # Configuration
 theme:
