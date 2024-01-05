@@ -28,9 +28,7 @@ nav:
   - References:
 	- Notes from readings: resources/notes_from_readings.md
         - Citations: resources/citations.md
-  - Manuscript drafts:
-	- Manuscript: resources/manuscript_1.md
-
+  
 
 # Configuration
 theme:
