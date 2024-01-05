@@ -26,10 +26,8 @@
 
 ## Session 3: Practical Application and Project Execution (2 Hours)
 
-### Part 1: Implementing Data Science Projects
-- Step-by-step guide on initiating and managing an environmental data science project.
-- Case studies or examples of successful projects in the field.
-- Discussion on integrating ethical considerations and team collaboration into project execution.
+### Part 1: Travel Planning and Reimbursement
+- Learn how to manage finances and submit paperwork to the University. 
 
 ### Part 2: Hands-on Data Analysis Workflow
 - Interactive session on constructing a data analysis pipeline using ESIIL/CyVerse tools.
