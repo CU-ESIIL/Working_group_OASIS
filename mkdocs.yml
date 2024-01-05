@@ -29,6 +29,8 @@ nav:
        - Data processing: resources/data_processing.md
        - Data analysis: resources/data_analysis.md
        - Visualizations: resources/visualizations.md 
+  - Manuscript drafts:
+	- Manuscript: resources/manuscript.md
   
 
 # Configuration
