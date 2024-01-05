@@ -286,9 +286,7 @@ checkout c1
   commit
   checkout c1
   merge b1
-``` 
-
-`
+```
 
 ```mermaid
 %%{init: {"quadrantChart": {"chartWidth": 400, "chartHeight": 400}, "themeVariables": {"quadrant1TextFill": "#ff0000"} }}%%
