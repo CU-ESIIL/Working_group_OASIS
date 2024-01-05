@@ -32,7 +32,7 @@ nav:
 	- Notes from readings: resources/notes_from_readings.md
         - Citations: resources/citations.md
   - Manuscript drafts:
-	- Manuscript 1: resources/manuscript_1.md
+	- Manuscript: resources/manuscript_1.md
 
 # Configuration
 theme:
