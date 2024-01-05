@@ -29,8 +29,8 @@ nav:
        - Data processing: resources/data_processing.md
        - Data analysis: resources/data_analysis.md
        - Visualizations: resources/visualizations.md 
-  #- Manuscript drafts:
-#	- Manuscript: resources/manuscript.md
+  - Manuscript drafts:
+       - Manuscript: resources/manuscript.md
   #- References:
 #	- Notes from readings: resources/notes_from_readings.md
  #       - Citations: resources/citations.md
