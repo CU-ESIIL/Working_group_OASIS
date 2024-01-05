@@ -58,7 +58,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-    - link: https://github.com/cu-esiil/
+     link: https://github.com/cu-esiil/
 
 extra_css:
   - stylesheets/extra.css
