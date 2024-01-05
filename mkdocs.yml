@@ -19,6 +19,12 @@ nav:
        - ESIIL training: resources/esiil_training.md
        - Markdown: resources/markdown_basics.md
        - Cyverse: resources/cyverse_basics.md
+  - Meeting Notes:
+       - Pre-meetings: resources/pre_meeting_notes.md
+       - First meeting: resources/first_meeting_notes.md
+       - Second meeting: resources/second_meeting_notes.md
+       - Third meeting: resources/third_meeting_notes.md
+       - Post-meetings: resources/post_meeting_notes.md
  
 
 # Configuration
