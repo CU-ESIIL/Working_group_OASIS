@@ -14,8 +14,8 @@ copyright: 'Copyright &copy; 2023 University of Colorado Boulder'
 nav:
   - Home: index.md
   # TODO: Add your nav sections / sub-sections and path to markdown page Ex:
-  # - Remote Sensing:
-  #     - How to Cloud Correct Sentinel-2 Images: remote_sensing/sentinel_2_cloud_correction/sentinel_2_cloud_correction.md
+  - Resources:
+       - Markdown: resources/markdown_basic.md
 
 # Configuration
 theme:
@@ -57,7 +57,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/cu-esiil/
+      # link: https://github.com/cu-esiil/
 
 extra_css:
   - stylesheets/extra.css
