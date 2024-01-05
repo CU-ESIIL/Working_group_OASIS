@@ -1,4 +1,4 @@
-# Literature Reading Notes Template
+# Literature Reading Notes
 
 ## Reference Information
 
