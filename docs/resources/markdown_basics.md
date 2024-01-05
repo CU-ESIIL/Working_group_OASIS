@@ -1,4 +1,4 @@
-# Markdown for the Modern Researcher: Efficiency and Clarity
+# Markdown for the Modern Researcher
 
 ## Introduction
 
