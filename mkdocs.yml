@@ -13,7 +13,6 @@ copyright: 'Copyright &copy; 2023 University of Colorado Boulder'
 # Page tree
 nav:
   - Home: index.md
-  # TODO: Add your nav sections / sub-sections and path to markdown page Ex:
   - Resources:
        - Markdown: resources/markdown_basics.md
 
