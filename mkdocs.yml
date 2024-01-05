@@ -25,7 +25,12 @@ nav:
        - Second meeting: resources/second_meeting_notes.md
        - Third meeting: resources/third_meeting_notes.md
        - Post-meetings: resources/post_meeting_notes.md
- 
+  - References:
+	- Notes from readings: resources/notes_from_readings.md
+        - Citations: resources/citations.md
+  - Manuscript drafts:
+	- Manuscript: resources/manuscript_1.md
+
 
 # Configuration
 theme:
