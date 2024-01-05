@@ -16,20 +16,23 @@ nav:
   - Resources:
        - Code of Conduct: resources/code-of-conduct.md
        - Participant agreement: resources/participant_agreement.md
+       - ESIIL training: resources/esiil_training.md
        - Markdown: resources/markdown_basics.md
        - Cyverse: resources/cyverse_basics.md
   - Meeting Notes:
-       - Pre-meetings: 
-       - First meeting:
-       - Second meeting:
-       - Third meeting:
-       - Post-meetings:
-  - Data processing:
-  - Data analysis:
-  - Visualizations: 
+       - Pre-meetings: resources/pre_meeting_notes.md
+       - First meeting: resources/first_meeting_notes.md
+       - Second meeting: resources/second_meeting_notes.md
+       - Third meeting: resources/third_meeting_notes.md
+       - Post-meetings: resources/post_meeting_notes.md
+  - Data processing: resources/data_processing.md
+  - Data analysis: resources/data_analysis.md
+  - Visualizations: resources/visualizations.md 
   - References:
-	- Notes from readings:
-        - Citations:
+	- Notes from readings: resources/notes_from_readings.md
+        - Citations: resources/citations.md
+  - Manuscript drafts:
+	- Manuscript 1: resources/manuscript_1.md
 
 # Configuration
 theme:
