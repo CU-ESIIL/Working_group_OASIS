@@ -1,4 +1,4 @@
-# Condensed ESIIL Training Outline for Working Groups
+# ESIIL Working Groups training sessions
 
 ## Introduction to ESIIL Training
 - Brief overview of the training program.
