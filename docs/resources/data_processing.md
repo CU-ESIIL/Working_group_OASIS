@@ -3,6 +3,13 @@
 ## Overview
 Brief description of the data processing objectives and scope. Reminder to adhere to data ownership and usage guidelines.
 
+## ACCESS proposal
+This is my draft text
+
+
+
+
+  
 ## Data Sources
 List and describe data sources used, including links to cloud-optimized sources. Highlight permissions and compliance with data ownership guidelines.
 
