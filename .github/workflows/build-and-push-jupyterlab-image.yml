@@ -6,7 +6,7 @@ on:
 jobs:
   
   build:
-    runs-on: ubuntu-latest  # Change to ubuntu-latest-m (medium) or ubuntu-latest-l (large) if you need a larger VM to build image
+    runs-on: ubuntu-latest
     
     steps:
     

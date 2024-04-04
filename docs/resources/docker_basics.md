@@ -224,3 +224,5 @@ Find the workflow in the Workflow navigation menu and click on it
 
 Click on the run workflow dropdown and click Run Workflow
 ![RunWorkflow](../assets/docker_basics/run_workflow.png)
+
+## Deploying the Image on CyVerse
