@@ -226,3 +226,41 @@ Click on the run workflow dropdown and click Run Workflow
 ![RunWorkflow](../assets/docker_basics/run_workflow.png)
 
 ## Deploying the Image on CyVerse
+First go to de.cyverse.org and login. From there go to the Apps dashboard and click on Manage Tools.
+![ManageTools](../assets/docker_basics/manage_tools.png)
+
+
+### Adding the Image as a Tool
+Then click Add Tool
+![Add Tool](../assets/docker_basics/add_tool.png)
+
+Give the Tool a descriptive name and set the initial version. The version can be whatever you like but 1.0 makes the most sense.
+![Tool Name](../assets/docker_basics/tool_name.png)
+
+Set the Image Name to esiil/name_of_your_image and the tag to whichever tag you would like the Tool to use. Most Tools will use the latest tag.
+![Image Name](../assets/docker_basics/image_name.png)
+
+You can see all of this information on the ESIIL dockerhub page.
+![DockerHub](../assets/docker_basics/dockerhub.png)
+
+Leave the Entrypoint, Working Directory, and UID blank. Add port 8888 as a container port.
+![Container Port](../assets/docker_basics/container_port.png)
+
+Leave all of the restrictions blank and then save the Tool
+![Restrictions](../assets/docker_basics/restrictions.png)
+
+### Associating the Tool with an App
+Go back to the Apps dashboard and click create
+![Create App](../assets/docker_basics/create_app.png)
+
+Just like for the Tool, give a descriptive name and description
+![App Name](../assets/docker_basics/dockerhub.png)
+
+For "Tool used" click select and then search for the name of the tool that was just added and then click on its row and then select at the bottom.
+![Tool Search](../assets/docker_basics/tool_search.png)
+
+From the app creation screen click Next, and then click next through the next steps until you get to completion. From there click Save and Launch
+![Save and Launch](../assets/docker_basics/save_and_launch.png)
+
+From there you can go through the deployment of your app like you would deploy any other app on CyVerse and test it out.
+
