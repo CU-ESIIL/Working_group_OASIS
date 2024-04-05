@@ -229,7 +229,6 @@ Click on the run workflow dropdown and click Run Workflow
 First go to de.cyverse.org and login. From there go to the Apps dashboard and click on Manage Tools.
 ![ManageTools](../assets/docker_basics/manage_tools.png)
 
-
 ### Adding the Image as a Tool
 Then click Add Tool
 ![Add Tool](../assets/docker_basics/add_tool.png)
