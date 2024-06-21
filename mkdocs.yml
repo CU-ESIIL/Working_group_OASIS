@@ -14,7 +14,6 @@ copyright: 'Copyright &copy; 2024 University of Colorado Boulder'
 nav:
   - Home: index.md
   - Resources:
-       - Orientation Slides: resources/slides.md
        - Code of Conduct: resources/code-of-conduct.md
        - Participant agreement: resources/participant_agreement.md
        - ESIIL training: resources/esiil_training.md
