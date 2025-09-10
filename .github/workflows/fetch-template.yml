@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - name: Checkout main repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Configure Git for merge
       run: |
@@ -29,6 +29,6 @@ jobs:
       run: git commit -am "Merge changes from template repository"
 
     - name: Push changes
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@v0.6.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
