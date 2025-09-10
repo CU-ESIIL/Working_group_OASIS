@@ -13,30 +13,30 @@ copyright: 'Copyright &copy; 2024 University of Colorado Boulder'
 # Page tree
 nav:
   - Home: index.md
-  - Resources:
-       - Orientation Slides: resources/slides.md
-       - Code of Conduct: resources/code-of-conduct.md
-       - Participant agreement: resources/participant_agreement.md
-       - ESIIL training: resources/esiil_training.md
-       - Markdown: resources/markdown_basics.md
-       - Cyverse: resources/cyverse_basics.md
-       - Art Gallery: resources/art gallery.md
-       - Docker: resources/docker_basics.md
+  - Orientation:
+       - Orientation Slides: orientation/slides.md
+       - Code of Conduct: orientation/code-of-conduct.md
+       - Participant agreement: orientation/participant_agreement.md
+       - ESIIL training: orientation/esiil_training.md
+       - Markdown: orientation/markdown_basics.md
+       - Cyverse: orientation/cyverse_basics.md
+       - Art Gallery: orientation/art_gallery.md
+       - Docker: orientation/docker_basics.md
   - Meeting Notes:
-       - Pre-meetings: resources/pre_meeting_notes.md
-       - First meeting: resources/first_meeting_notes.md
-       - Second meeting: resources/second_meeting_notes.md
-       - Third meeting: resources/third_meeting_notes.md
-       - Post-meetings: resources/post_meeting_notes.md
+       - Pre-meetings: meeting-notes/pre_meeting_notes.md
+       - First meeting: meeting-notes/first_meeting_notes.md
+       - Second meeting: meeting-notes/second_meeting_notes.md
+       - Third meeting: meeting-notes/third_meeting_notes.md
+       - Post-meetings: meeting-notes/post_meeting_notes.md
   - Code documentation:
-       - Data processing: resources/data_processing.md
-       - Data analysis: resources/data_analysis.md
-       - Visualizations: resources/visualizations.md 
+       - Data processing: code/data_processing.md
+       - Data analysis: code/data_analysis.md
+       - Visualizations: code/visualizations.md
   - Manuscript drafts:
-       - Manuscript: resources/manuscript.md
+       - Manuscript: manuscript/manuscript.md
   - References:
-       - Notes from readings: resources/notes_from_readings.md
-       - Citations: resources/citations.md
+       - Notes from readings: references/notes_from_readings.md
+       - Citations: references/citations.md
 
 # Configuration
 theme:

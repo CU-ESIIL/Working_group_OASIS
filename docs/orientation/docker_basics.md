@@ -161,7 +161,7 @@ RUN echo "PROJ_LIB=/opt/conda/envs/custom/share/proj" > /home/jovyan/.Renviron
 There are many things going on in the Dockerfile above. Most of the lines, however, are just Linux commands you would run from a terminal when provisioning a new VM. Each block of code is commented with what it accomplishes.
 
 ### Add any necessary files
-The Dockerfile above uses a file called environment.yml to provision the its conda environment and a jupyter_config_notebook.json file to configure the jupyterlab server. Both of these files will need to be added to the docker/jupyterlab directory at the same level as the Dockerfile. You can view the content of these files in this repository.
+The Dockerfile above uses a file called environment.yml to provision its conda environment and a jupyter_config_notebook.json file to configure the jupyterlab server. Both of these files need to be added to the containers/jupyterlab directory at the same level as the Dockerfile. You can view the content of these files in this repository.
 
 ### Create the GitHub actions workflow file
 Workflow files specify when and how code is executed in a GitHub Actions workflow. Actions can be triggered automatically, such as when a commit is pushed to a repo or a specific file, or they can be triggered manually. The following workflow is defined so that the Action is triggered manually. Actions can also be run on different VM types. The following Action will be run on the latest Ubuntu image. 
@@ -202,8 +202,8 @@ jobs:
         id: docker_build_jupyterlab
         uses: docker/build-push-action@v4.0.0
         with:
-          context: docker/jupyterlab
-          file: docker/jupyterlab/Dockerfile
+          context: containers/jupyterlab
+          file: containers/jupyterlab/Dockerfile
           builder: ${{ steps.buildx.outputs.name }}
           push: true
           tags: |
