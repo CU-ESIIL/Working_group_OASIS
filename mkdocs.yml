@@ -12,7 +12,7 @@ copyright: 'Copyright &copy; 2024 University of Colorado Boulder'
 
 # Page tree
 nav:
-  - Home: index.md
+  - Public Facing Website: index.md
   - Resources:
        - Orientation Slides: resources/slides.md
        - Code of Conduct: resources/code-of-conduct.md
@@ -49,7 +49,6 @@ theme:
   favicon: 'assets/esiil_content/favicon.ico'
   # setting features for the navigation tab
   features:
-    - navigation.sections
     - navigation.instant
     - navigation.tracking
     - navigation.indexes
