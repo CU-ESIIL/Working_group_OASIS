@@ -21,9 +21,13 @@ Welcome to the **[Your Working Group Name]** repository, an integral part of the
 - [Link to more detailed bios or profiles if available.]
 
 ## Repository Structure
-- **Analysis Code**: Scripts for data analysis, statistical modeling, etc.
-- **Data Processing**: Scripts for cleaning, merging, and managing datasets.
-- **Visualization**: Code for creating figures, charts, and interactive visualizations.
+- **containers/**: Docker configurations for reproducible development environments.
+- **docs/**: Project documentation organized into:
+  - **orientation/**: Onboarding materials and training resources.
+  - **meeting-notes/**: Notes from group meetings.
+  - **code/**: Documentation for data processing, analysis, and visualization.
+  - **manuscript/**: Drafts and manuscript content.
+  - **references/**: Citations and reading notes.
 
 ## Meeting Notes and Agendas
 - Regular updates to keep all group members informed and engaged with the project's progress and direction.
