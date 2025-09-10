@@ -22,6 +22,7 @@ nav:
        - Cyverse: orientation/cyverse_basics.md
        - Art Gallery: orientation/art_gallery.md
        - Docker: orientation/docker_basics.md
+       - Customize homepage: orientation/homepage_customization.md
   - Meeting Notes:
        - Pre-meetings: meeting-notes/pre_meeting_notes.md
        - First meeting: meeting-notes/first_meeting_notes.md
