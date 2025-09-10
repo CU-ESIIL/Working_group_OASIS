@@ -11,27 +11,27 @@ jobs:
     steps:
     
       - name: Checkout
-        uses: actions/checkout@v3.5.0
+        uses: actions/checkout@v4
       
       - name: Set up Docker Buildx
         id: buildx
-        uses: docker/setup-buildx-action@v2.5.0
+        uses: docker/setup-buildx-action@v3
             
-      - name: Login to dockerhub 
-        uses: docker/login-action@v2.1.0
+      - name: Login to dockerhub
+        uses: docker/login-action@v3
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
 
       - name: Get lowercase repo name (for dynamic tags)
-        id: repo_name  
+        id: repo_name
         run: |
           lowercase_name=$(echo ${{ github.event.repository.name }} | tr '[:upper:]' '[:lower:]')
-          echo "::set-output name=repo_name::${lowercase_name}"
+          echo "repo_name=${lowercase_name}" >> "$GITHUB_OUTPUT"
         
       - name: Build and push latest
         id: docker_build_jupyterlab
-        uses: docker/build-push-action@v4.0.0
+        uses: docker/build-push-action@v5
         with:
           context: docker/jupyterlab
           file: docker/jupyterlab/Dockerfile
@@ -41,4 +41,4 @@ jobs:
             esiil/${{ steps.repo_name.outputs.repo_name }}_jupyterlab:latest
      
       - name: Image digest
-        run: echo ${{ steps.docker_build.outputs.digest }}
+        run: echo ${{ steps.docker_build_jupyterlab.outputs.digest }}
