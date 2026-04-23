@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-label="Reports process placeholder">
+  <rect width="960" height="720" fill="#edf4f2"/>
+  <rect x="170" y="106" width="620" height="508" rx="36" fill="#ffffff" stroke="#d7e2e6" stroke-width="5"/>
+  <rect x="244" y="194" width="302" height="36" rx="18" fill="#17344b"/>
+  <rect x="244" y="276" width="470" height="28" rx="14" fill="#2d95a1"/>
+  <rect x="244" y="332" width="420" height="24" rx="12" fill="#c1d0d8"/>
+  <rect x="244" y="380" width="448" height="24" rx="12" fill="#c1d0d8"/>
+</svg>

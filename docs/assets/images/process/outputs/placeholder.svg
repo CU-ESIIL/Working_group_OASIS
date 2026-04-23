@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-label="Outputs process placeholder">
+  <rect width="960" height="720" fill="#edf4f2"/>
+  <rect x="126" y="118" width="708" height="484" rx="36" fill="#ffffff" stroke="#d7e2e6" stroke-width="5"/>
+  <rect x="188" y="188" width="238" height="286" rx="24" fill="#17344b"/>
+  <path d="M228 422 L278 348 L336 386 L390 306" fill="none" stroke="#8de0e8" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="476" y="220" width="222" height="126" rx="24" fill="#2d95a1"/>
+  <rect x="476" y="394" width="180" height="30" rx="15" fill="#6f8f57"/>
+</svg>

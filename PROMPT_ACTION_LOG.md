@@ -67,3 +67,39 @@ Verification
 Open questions and follow-up
 
 * Consider whether future template iterations should add dedicated README files for scientific working folders once those folders become part of the base template.
+
+2026-04-23
+
+Prompt
+
+User asked: "Generate and integrate an image system for Working Group OASIS with semantic image slots, folder-driven process galleries, replacement guidance, and reusable site-wide integration."
+
+Files and folders inspected
+
+* docs/
+* docs/assets/images/
+* docs/stylesheets/
+* scripts/
+* mkdocs.yml
+* README.md
+* .github/workflows/
+
+Actions taken
+
+* Expanded the image build step to generate both stable slot references and reusable gallery includes from semantic folders.
+* Added the missing `group-photo` slot and replaced the slot placeholder artwork with cleaner SVG placeholders matched to hero, button, and collaboration use cases.
+* Added process-gallery folders, README instructions, starter placeholder assets, and sample linked deliverables.
+* Wired slot images, figure-style replacement notes, and folder-driven galleries into the homepage, work plan, resources, and community care pages.
+* Extended styling, site health checks, and GitHub Actions build steps to support the new image and gallery system.
+
+Verification
+
+* Ran `python3 scripts/generate_image_slots.py`.
+* Ran `python3 scripts/site_health.py`.
+* Ran `python3 scripts/check_template.py`.
+* Ran `.venv/bin/mkdocs build --strict --clean`.
+* Verified the rendered homepage and resources page in the in-app browser against the built `site/` output.
+
+Open questions and follow-up
+
+* If future template pages are added below another nested directory level, the gallery generator may need one more relative-path variant for those deeper pages.

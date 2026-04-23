@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-label="Exploration process placeholder">
+  <rect width="960" height="720" fill="#edf4f2"/>
+  <rect x="120" y="120" width="720" height="480" rx="36" fill="#ffffff" stroke="#d7e2e6" stroke-width="5"/>
+  <path d="M196 468 C280 390 366 512 438 430 S592 314 674 374" fill="none" stroke="#2d95a1" stroke-width="20" stroke-linecap="round"/>
+  <path d="M196 522 C282 460 364 558 454 490 S614 372 700 430" fill="none" stroke="#6f8f57" stroke-width="16" stroke-linecap="round" opacity="0.8"/>
+</svg>

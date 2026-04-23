@@ -9,14 +9,28 @@ DOCS = ROOT / "docs"
 REPORT = DOCS / "_site_health.md"
 MKDOCS = ROOT / "mkdocs.yml"
 SLOTS_ROOT = DOCS / "assets" / "images" / "slots"
+PROCESS_ROOT = DOCS / "assets" / "images" / "process"
 VALID_IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".svg"}
 REQUIRED_IMAGE_SLOTS = [
     "hero",
+    "group-photo",
     "repository-side",
     "website-side",
     "data",
     "analysis",
     "outputs",
+]
+REQUIRED_PROCESS_FOLDERS = [
+    "start-here",
+    "data",
+    "methods",
+    "exploration",
+    "whiteboards",
+    "workflows",
+    "outputs",
+    "deliverables",
+    "reports",
+    "community",
 ]
 
 REQUIRED_FILES = [
@@ -170,6 +184,21 @@ def image_slot_issues() -> list[str]:
     return issues
 
 
+def process_gallery_issues() -> list[str]:
+    issues: list[str] = []
+
+    for folder_name in REQUIRED_PROCESS_FOLDERS:
+        folder = PROCESS_ROOT / folder_name
+        if not folder.exists():
+            issues.append(f"⚠ Process gallery issue: missing folder 'docs/assets/images/process/{folder_name}'.")
+            continue
+
+        if not (folder / "README.md").exists():
+            issues.append(f"⚠ Process gallery issue: missing README.md in 'docs/assets/images/process/{folder_name}'.")
+
+    return issues
+
+
 def write_report(issues: list[str]) -> None:
     lines = ["Site Health", ""]
 
@@ -198,6 +227,7 @@ def main() -> int:
     issues.extend(navigation_issues())
     issues.extend(internal_link_issues())
     issues.extend(image_slot_issues())
+    issues.extend(process_gallery_issues())
     write_report(issues)
     print(f"Generated {REPORT.relative_to(ROOT)} with {len(issues)} warning(s).")
     return 0

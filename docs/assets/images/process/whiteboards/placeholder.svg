@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-label="Whiteboards process placeholder">
+  <rect width="960" height="720" fill="#edf4f2"/>
+  <rect x="140" y="110" width="680" height="500" rx="28" fill="#ffffff" stroke="#d7e2e6" stroke-width="5"/>
+  <rect x="204" y="190" width="194" height="118" rx="18" fill="#8de0e8"/>
+  <rect x="426" y="190" width="160" height="98" rx="18" fill="#2d95a1"/>
+  <rect x="614" y="190" width="126" height="126" rx="18" fill="#6f8f57"/>
+  <path d="M214 410 L364 368 L504 430 L662 354" fill="none" stroke="#17344b" stroke-width="18" stroke-linecap="round"/>
+</svg>
