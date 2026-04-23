@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Homepage hero placeholder</title>
+  <desc id="desc">Placeholder art for the Working Group homepage hero image slot.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#17344b" />
+      <stop offset="55%" stop-color="#2d95a1" />
+      <stop offset="100%" stop-color="#edf4f2" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="560" fill="url(#bg)" />
+  <circle cx="220" cy="120" r="110" fill="rgba(255,255,255,0.16)" />
+  <circle cx="980" cy="420" r="150" fill="rgba(255,255,255,0.14)" />
+  <path d="M0 420 C180 360 280 470 440 430 S780 300 1200 420 L1200 560 L0 560 Z" fill="rgba(255,255,255,0.18)" />
+  <g fill="#ffffff">
+    <text x="88" y="210" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Repository + Website Workflow</text>
+    <text x="88" y="270" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">Homepage Hero Slot</text>
+    <text x="88" y="332" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="24">Replace this file with one image that represents your working group's science and public story.</text>
+  </g>
+</svg>

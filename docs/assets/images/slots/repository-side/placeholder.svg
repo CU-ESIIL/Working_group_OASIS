@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Repository side placeholder</title>
+  <desc id="desc">Placeholder art for the homepage repository-side image slot.</desc>
+  <rect width="1200" height="675" fill="#edf4f2" />
+  <rect x="72" y="68" width="1056" height="539" rx="28" fill="#ffffff" stroke="#c1d0d8" stroke-width="3" />
+  <rect x="122" y="132" width="320" height="24" rx="12" fill="#17344b" opacity="0.9" />
+  <rect x="122" y="188" width="420" height="18" rx="9" fill="#2d95a1" opacity="0.72" />
+  <rect x="122" y="230" width="370" height="18" rx="9" fill="#2d95a1" opacity="0.48" />
+  <rect x="122" y="292" width="420" height="220" rx="18" fill="#f5f8f7" stroke="#d7e2e6" />
+  <path d="M170 458 L248 382 L336 420 L452 316 L528 350" fill="none" stroke="#1f6e93" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="620" y="132" width="390" height="110" rx="18" fill="#17344b" />
+  <rect x="650" y="168" width="160" height="16" rx="8" fill="#ffffff" opacity="0.9" />
+  <rect x="650" y="200" width="248" height="16" rx="8" fill="#ffffff" opacity="0.55" />
+  <rect x="620" y="284" width="390" height="228" rx="18" fill="#eef3f6" stroke="#d7e2e6" />
+  <rect x="652" y="324" width="144" height="18" rx="9" fill="#6f8f57" opacity="0.9" />
+  <rect x="652" y="362" width="248" height="16" rx="8" fill="#5f7382" opacity="0.5" />
+  <rect x="652" y="400" width="300" height="16" rx="8" fill="#5f7382" opacity="0.34" />
+  <text x="122" y="572" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#17344b">Repository side image slot</text>
+</svg>

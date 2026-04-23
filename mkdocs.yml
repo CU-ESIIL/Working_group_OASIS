@@ -1,11 +1,12 @@
 site_name: 'ESIIL Working Group OASIS'
-site_description: 'Central resource for ESIIL working groups'
+site_description: 'Repository and website template for ESIIL working groups'
 site_author: Ty Tuff
-site_url: https://cu-esiil.github.io/Working_group_home
+site_url: https://cu-esiil.github.io/Working_group_OASIS
 
 # Repository
-repo_name: Working-group-home
+repo_name: Working_group_OASIS
 repo_url: https://github.com/CU-ESIIL/Working_group_OASIS
+# The edit URI points MkDocs Material at the docs/ source so page edit links open in GitHub edit mode.
 edit_uri: edit/main/docs/
 # Copyright
 copyright: 'Copyright &copy; 2024 University of Colorado Boulder'
@@ -32,6 +33,7 @@ theme:
     - navigation.top
     - toc.integrate
     - toc.follow
+    - content.action.edit
     - content.code.copy
   language: en
   palette:
@@ -56,6 +58,7 @@ extra_css:
   - stylesheets/extra.css
 
 markdown_extensions:
+  - attr_list
   - pymdownx.snippets:
       base_path:
         - docs

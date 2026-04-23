@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Data slot placeholder</title>
+  <desc id="desc">Placeholder art for the data image slot.</desc>
+  <rect width="1200" height="675" fill="#f5f8f7" />
+  <rect x="84" y="84" width="1032" height="507" rx="30" fill="#ffffff" stroke="#d7e2e6" stroke-width="3" />
+  <rect x="140" y="148" width="250" height="28" rx="14" fill="#17344b" opacity="0.9" />
+  <g fill="#2d95a1" opacity="0.9">
+    <circle cx="204" cy="288" r="36" />
+    <circle cx="332" cy="288" r="36" />
+    <circle cx="460" cy="288" r="36" />
+  </g>
+  <rect x="560" y="238" width="414" height="200" rx="18" fill="#eef3f6" stroke="#d7e2e6" />
+  <rect x="140" y="382" width="320" height="24" rx="12" fill="#6f8f57" opacity="0.86" />
+  <rect x="140" y="430" width="404" height="18" rx="9" fill="#5f7382" opacity="0.45" />
+  <text x="140" y="542" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#17344b">Data image slot</text>
+</svg>

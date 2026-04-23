@@ -32,3 +32,38 @@ Verification
 Open questions and follow-up
 
 * Decide later whether to keep scripts/check_template.py as a local-only helper or retire it.
+
+2026-04-23
+
+Prompt
+
+User asked: "Reorganize the Working Group OASIS homepage around the repository plus website workflow, clarify how the repo is organized, and add a simple image-slot system for homepage visuals."
+
+Files and folders inspected
+
+* docs/
+* docs/stylesheets/
+* mkdocs.yml
+* README.md
+* scripts/
+* .github/workflows/
+
+Actions taken
+
+* Rewrote the homepage to explain the repository side, website side, and GitHub bridge with a clearer start path.
+* Added homepage edit affordances and enabled MkDocs Material edit actions.
+* Clarified the repository structure in the root README and MkDocs comments.
+* Added semantic image slot folders, slot documentation, and a pre-build generator for stable image references.
+* Extended the site health report and GitHub Pages workflow to cover the new image-slot system.
+
+Verification
+
+* Ran `python3 scripts/generate_image_slots.py`.
+* Ran `python3 scripts/site_health.py`.
+* Ran `python3 scripts/check_template.py`.
+* Ran `.venv/bin/mkdocs build --strict --clean`.
+* Verified the built homepage in a local browser against `site/index.html`, including the visible edit affordance and GitHub edit-mode URL for `docs/index.md`.
+
+Open questions and follow-up
+
+* Consider whether future template iterations should add dedicated README files for scientific working folders once those folders become part of the base template.

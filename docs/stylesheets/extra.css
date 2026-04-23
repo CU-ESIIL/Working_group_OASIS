@@ -365,6 +365,20 @@ body {
   box-shadow: var(--esiil-shadow-md);
 }
 
+.md-typeset img.homepage-hero,
+.md-typeset img.section-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.md-typeset img.homepage-hero {
+  aspect-ratio: 16 / 7;
+}
+
+.md-typeset img.section-image {
+  aspect-ratio: 16 / 9;
+}
+
 .md-typeset pre > code,
 .md-typeset .highlight > pre,
 .md-typeset .highlighttable {

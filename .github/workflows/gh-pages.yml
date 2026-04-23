@@ -31,6 +31,9 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
+      - name: Generate image slot references
+        run: python scripts/generate_image_slots.py
+
       - name: Generate site health report
         run: python scripts/site_health.py
 

@@ -2,16 +2,70 @@
 
 This repository is a template for ESIIL Working Groups.
 
-The website is built from the docs/ folder using MkDocs.
+This template is designed as one connected system:
+
+- The repository is where the science happens.
+- The website is where the science is shared.
+- GitHub connects them through commits, version history, and publishing.
+
+## How this repository is organized
+
+The repository has two connected layers. Top-level files configure the project and its automation. The `docs/` folder contains the website content. `mkdocs.yml` tells MkDocs how to turn that content into the public site. Analysis folders hold the working scientific materials that generate the results shown on the website.
+
+```text
+.
+├── README.md              # Repository overview and setup notes
+├── mkdocs.yml             # Website navigation, theme, plugins, and edit links
+├── docs/                  # Markdown source for the public website
+├── scripts/               # Build helpers and site health checks
+├── templates/             # Reusable meeting-note templates
+├── containers/            # Optional runtime and environment setup
+└── other working folders  # Add data, notebooks, scripts, workflows, outputs, or figures here as the group's science grows
+```
+
+Use these rules of thumb when deciding where to put something:
+
+- Top-level files and folders are for project configuration, automation, contribution guidance, licensing, environment setup, and repo-wide metadata.
+- `docs/` is for public website pages and assets. Markdown files here become website pages through MkDocs.
+- `mkdocs.yml` controls how the website is rendered, including navigation, theme settings, plugins, and GitHub edit links.
+- Scientific working materials belong in working folders such as data, notebooks, scripts, workflows, outputs, and figure directories.
+
+## Common places to edit
+
+- `docs/index.md` is the homepage for the public site.
+- `docs/work-plan.md` is where the group can track milestones, meetings, and active work.
+- `docs/resources.md` is where datasets, references, and code links can be collected.
+- `docs/community-care.md` is where collaboration expectations and group care guidance live.
+- `docs/assets/images/slots/` contains named image slots for the homepage and other shared visuals.
 
 ## Preview locally
 
-pip install mkdocs-material  
+```bash
+pip install -r requirements.txt
+python scripts/generate_image_slots.py
+python scripts/site_health.py
 mkdocs serve
+```
 
 ## Build site
 
+```bash
+python scripts/generate_image_slots.py
+python scripts/site_health.py
 mkdocs build --strict --clean
+```
+
+## Swapping homepage images
+
+The homepage uses semantic image slots so Working Group members do not need to edit Markdown links every time an image changes.
+
+1. Open the relevant folder in `docs/assets/images/slots/`.
+2. Delete the old image file.
+3. Add one new `.png`, `.jpg`, `.jpeg`, `.webp`, or `.svg` file.
+4. Run `python scripts/generate_image_slots.py`.
+5. Commit the image change and the regenerated slot references.
+
+If a slot folder contains multiple images, the generator prefers the first non-placeholder file alphabetically and the site health report will warn you to clean it up.
 
 ## Site Health
 

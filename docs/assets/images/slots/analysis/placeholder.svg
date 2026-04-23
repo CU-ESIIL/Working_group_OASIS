@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Analysis slot placeholder</title>
+  <desc id="desc">Placeholder art for the analysis image slot.</desc>
+  <rect width="1200" height="675" fill="#edf4f2" />
+  <rect x="80" y="76" width="1040" height="523" rx="28" fill="#ffffff" stroke="#d7e2e6" stroke-width="3" />
+  <rect x="138" y="130" width="248" height="28" rx="14" fill="#17344b" opacity="0.92" />
+  <path d="M156 454 L268 356 L382 398 L494 274 L618 320 L734 226 L858 286" fill="none" stroke="#1f6e93" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="268" cy="356" r="18" fill="#2d95a1" />
+  <circle cx="494" cy="274" r="18" fill="#2d95a1" />
+  <circle cx="734" cy="226" r="18" fill="#2d95a1" />
+  <rect x="764" y="360" width="246" height="118" rx="20" fill="#17344b" />
+  <rect x="796" y="398" width="144" height="16" rx="8" fill="#ffffff" opacity="0.9" />
+  <rect x="796" y="430" width="186" height="16" rx="8" fill="#ffffff" opacity="0.55" />
+  <text x="138" y="542" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#17344b">Analysis image slot</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Outputs slot placeholder</title>
+  <desc id="desc">Placeholder art for the outputs image slot.</desc>
+  <rect width="1200" height="675" fill="#f5f8f7" />
+  <rect x="88" y="80" width="1024" height="515" rx="30" fill="#ffffff" stroke="#d7e2e6" stroke-width="3" />
+  <rect x="148" y="136" width="256" height="28" rx="14" fill="#17344b" opacity="0.9" />
+  <rect x="148" y="222" width="396" height="244" rx="18" fill="#17344b" />
+  <rect x="612" y="222" width="336" height="84" rx="18" fill="#2d95a1" opacity="0.92" />
+  <rect x="612" y="336" width="336" height="24" rx="12" fill="#17344b" opacity="0.88" />
+  <rect x="612" y="384" width="292" height="18" rx="9" fill="#5f7382" opacity="0.5" />
+  <rect x="612" y="422" width="248" height="18" rx="9" fill="#5f7382" opacity="0.34" />
+  <path d="M214 428 L276 342 L338 384 L400 296 L462 338" fill="none" stroke="#8de0e8" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="148" y="540" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#17344b">Outputs image slot</text>
+</svg>

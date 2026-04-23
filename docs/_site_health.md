@@ -4,8 +4,6 @@ Site Health
 
 ⚠ Placeholder detected: generic placeholder link in docs/index.md
 
-⚠ Placeholder detected: homepage description placeholder in docs/index.md
-
 ⚠ Placeholder detected: people table placeholder in docs/index.md
 
 ⚠ Placeholder detected: generic placeholder link in docs/resources.md

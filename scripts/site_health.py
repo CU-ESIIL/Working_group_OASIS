@@ -8,6 +8,16 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 REPORT = DOCS / "_site_health.md"
 MKDOCS = ROOT / "mkdocs.yml"
+SLOTS_ROOT = DOCS / "assets" / "images" / "slots"
+VALID_IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".svg"}
+REQUIRED_IMAGE_SLOTS = [
+    "hero",
+    "repository-side",
+    "website-side",
+    "data",
+    "analysis",
+    "outputs",
+]
 
 REQUIRED_FILES = [
     ROOT / "docs/index.md",
@@ -133,6 +143,33 @@ def internal_link_issues() -> list[str]:
     return issues
 
 
+def image_slot_issues() -> list[str]:
+    issues: list[str] = []
+
+    for slot_name in REQUIRED_IMAGE_SLOTS:
+        slot_dir = SLOTS_ROOT / slot_name
+        if not slot_dir.exists():
+            issues.append(f"⚠ Image slot issue: missing slot folder 'docs/assets/images/slots/{slot_name}'.")
+            continue
+
+        images = sorted(
+            path.name
+            for path in slot_dir.iterdir()
+            if path.is_file() and path.suffix.lower() in VALID_IMAGE_EXTENSIONS
+        )
+
+        if not images:
+            issues.append(f"⚠ Image slot issue: slot '{slot_name}' does not contain an image file.")
+            continue
+
+        if len(images) > 1:
+            issues.append(
+                f"⚠ Image slot issue: slot '{slot_name}' has multiple image files ({', '.join(images)}). Keep one image only."
+            )
+
+    return issues
+
+
 def write_report(issues: list[str]) -> None:
     lines = ["Site Health", ""]
 
@@ -160,6 +197,7 @@ def main() -> int:
     issues.extend(placeholder_issues())
     issues.extend(navigation_issues())
     issues.extend(internal_link_issues())
+    issues.extend(image_slot_issues())
     write_report(issues)
     print(f"Generated {REPORT.relative_to(ROOT)} with {len(issues)} warning(s).")
     return 0
