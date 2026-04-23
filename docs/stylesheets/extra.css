@@ -266,8 +266,7 @@ body {
   text-decoration-color: currentColor;
 }
 
-.md-typeset .md-button,
-.md-typeset .animated-button {
+.md-typeset .md-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -290,23 +289,20 @@ body {
     border-color var(--esiil-transition-fast);
 }
 
-.md-typeset .md-button:is(:hover, :focus-visible),
-.md-typeset .animated-button:is(:hover, :focus-visible) {
+.md-typeset .md-button:is(:hover, :focus-visible) {
   color: #fff;
   transform: translateY(-2px);
   box-shadow: var(--esiil-shadow-md);
 }
 
-.md-typeset .md-button--secondary,
-.md-typeset .animated-button.secondary {
+.md-typeset .md-button--secondary {
   background: rgba(255, 255, 255, 0.78);
   color: var(--esiil-color-heading);
   border-color: var(--esiil-color-border-strong);
   box-shadow: none;
 }
 
-.md-typeset .md-button--secondary:is(:hover, :focus-visible),
-.md-typeset .animated-button.secondary:is(:hover, :focus-visible) {
+.md-typeset .md-button--secondary:is(:hover, :focus-visible) {
   color: var(--esiil-color-heading);
   background: #fff;
   border-color: rgba(31, 110, 147, 0.28);
@@ -384,30 +380,6 @@ body {
 .md-typeset code {
   border-radius: 0.35rem;
   padding: 0.12em 0.36em;
-}
-
-/* Homepage helper block kept markdown-friendly */
-
-.hero {
-  padding: clamp(1.4rem, 1rem + 1vw, 2.4rem);
-  margin-bottom: var(--esiil-space-7);
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.86), rgba(237, 244, 242, 0.94));
-  border: 1px solid rgba(255, 255, 255, 0.82);
-  border-radius: calc(var(--esiil-radius-lg) + 0.2rem);
-  box-shadow: var(--esiil-shadow-md);
-}
-
-.hero-image {
-  width: min(100%, 27rem);
-  margin-inline: auto;
-}
-
-.hero > div:last-child {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: var(--esiil-space-3);
-  margin-top: var(--esiil-space-5);
 }
 
 /* Footer and responsive refinement */

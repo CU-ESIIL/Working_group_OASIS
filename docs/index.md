@@ -1,21 +1,68 @@
-# Welcome to Your Working Group
+# Working Group Title
 
-<!-- Hero section with customizable image and animated buttons -->
-<div class="hero" style="text-align:center;">
-  <img src="assets/sample-image.svg" alt="Placeholder image" class="hero-image">
-  <div>
-    <a href="#" class="animated-button">Get Started</a>
-    <a href="#" class="animated-button secondary">Learn More</a>
-  </div>
-</div>
+Short one-sentence description of what this group is doing.
 
-This homepage uses a placeholder image and animated buttons that you can easily replace. 
-See the [customization guide](orientation/homepage_customization.md) for instructions.
+## Key Links
 
-## About the Project
+- Main Working Document: [link]
+- GitHub Repository: [link]
+- Data / Resources: [link]
+- Outputs / Dashboard: [link]
 
-Describe your project goals and overview here.
+## Current Phase
 
-## Team Members
+Working Phase: Preparing for Meeting 1  
+(or update as needed: Working asynchronously, Preparing outputs, etc.)
 
-List your team members and roles here.
+## Timeline
+
+### Kickoff (Day 1)
+- Define goals and questions
+- Identify key data and resources
+- Set up communication and workflow
+
+### Meeting 1
+- Agenda: [link]
+- Notes: [link]
+- Decisions: [link]
+- Next Steps: [link]
+
+### Between Meetings
+- Active work: [link]
+- Shared documents: [link]
+- Data / code updates: [link]
+
+### Meeting 2
+- Agenda: [link]
+- Notes: [link]
+- Synthesis direction: [link]
+
+### Outputs / Wrap Up
+- Final outputs: [link]
+- Manuscripts / products: [link]
+- Archive resources: [link]
+
+## Resources
+
+- Working documents: [link]
+- Data: [link]
+- Code: [link]
+- Training: [link]
+- References: [link]
+
+## How This Group Works
+
+- Communication: [Slack / email / etc.]
+- Documents: [Google Drive / GitHub / etc.]
+- Meetings: [schedule + format]
+
+## People
+
+| Name | Role |
+|------|------|
+| Name | Role |
+| Name | Role |
+
+## Site Health
+
+--8<-- "_site_health.md"

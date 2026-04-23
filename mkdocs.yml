@@ -5,7 +5,7 @@ site_url: https://cu-esiil.github.io/Working_group_home
 
 # Repository
 repo_name: Working-group-home
-repo_url: https://github.com/CU-ESIIL/Working_group_oasis
+repo_url: https://github.com/CU-ESIIL/Working_group_OASIS
 edit_uri: edit/main/docs/
 # Copyright
 copyright: 'Copyright &copy; 2024 University of Colorado Boulder'
@@ -13,31 +13,9 @@ copyright: 'Copyright &copy; 2024 University of Colorado Boulder'
 # Page tree
 nav:
   - Home: index.md
-  - Orientation:
-       - Orientation Slides: orientation/slides.md
-       - Code of Conduct: orientation/code-of-conduct.md
-       - Participant agreement: orientation/participant_agreement.md
-       - ESIIL training: orientation/esiil_training.md
-       - Markdown: orientation/markdown_basics.md
-       - Cyverse: orientation/cyverse_basics.md
-       - Art Gallery: orientation/art_gallery.md
-       - Docker: orientation/docker_basics.md
-       - Customize homepage: orientation/homepage_customization.md
-  - Meeting Notes:
-       - Pre-meetings: meeting-notes/pre_meeting_notes.md
-       - First meeting: meeting-notes/first_meeting_notes.md
-       - Second meeting: meeting-notes/second_meeting_notes.md
-       - Third meeting: meeting-notes/third_meeting_notes.md
-       - Post-meetings: meeting-notes/post_meeting_notes.md
-  - Code documentation:
-       - Data processing: code/data_processing.md
-       - Data analysis: code/data_analysis.md
-       - Visualizations: code/visualizations.md
-  - Manuscript drafts:
-       - Manuscript: manuscript/manuscript.md
-  - References:
-       - Notes from readings: references/notes_from_readings.md
-       - Citations: references/citations.md
+  - Work Plan: work-plan.md
+  - Resources: resources.md
+  - Community Care: community-care.md
 
 # Configuration
 theme:
@@ -46,7 +24,6 @@ theme:
   font: false
   logo: 'assets/esiil_content/ESIIL_logo.png'
   favicon: 'assets/esiil_content/favicon.ico'
-  # setting features for the navigation tab
   features:
     - navigation.sections
     - navigation.instant
@@ -56,17 +33,13 @@ theme:
     - toc.integrate
     - toc.follow
     - content.code.copy
-  # Default values, taken from mkdocs_theme.yml
   language: en
   palette:
-    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       primary: 'white'
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-
-    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
@@ -77,16 +50,18 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-    # link: https://github.com/cu-esiil/
 
 extra_css:
   - stylesheets/tokens.css
   - stylesheets/extra.css
 
+markdown_extensions:
+  - pymdownx.snippets:
+      base_path:
+        - docs
+
+validation:
+  omitted_files: ignore
+
 plugins:
     - search
-    - mkdocstrings
-    - git-revision-date
-    - mkdocs-jupyter:
-          include_source: True
-          ignore_h1_titles: True

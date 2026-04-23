@@ -49,3 +49,9 @@ rsconnect/
 
 # macOS
 .DS_Store
+
+# Local validation artifacts
+.venv/
+node_modules/
+site/
+test-results/

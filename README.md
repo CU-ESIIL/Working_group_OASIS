@@ -1,57 +1,26 @@
-[![DOI](https://zenodo.org/badge/727888683.svg)](https://zenodo.org/doi/10.5281/zenodo.11166898)
+# Working Group Template
 
-# [Your Working Group Name]
+This repository is a template for ESIIL Working Groups.
 
-Welcome to the **[Your Working Group Name]** repository, an integral part of the Environmental Data Science Innovation and Inclusion Lab (ESIIL). This repository is the central hub for our working group, encompassing our project overview, proposals, team member information, codebase, and more.
+The website is built from the docs/ folder using MkDocs.
 
-## Our Project
-[Provide a brief overview of your project here. Describe what you aim to achieve, the importance of your project, and its expected impact.]
+## Preview locally
 
-## Documentation
-- Access detailed documentation on our [GitHub Pages site](https://your-gh-pages-url/).
-- Find comprehensive guides, tutorials, and additional resources.
+pip install mkdocs-material  
+mkdocs serve
 
-## Project Proposal
-[Link to the detailed project proposal document or include it directly in the repository. Outline the goals, methodologies, anticipated challenges, and projected timelines.]
+## Build site
 
-## Group Members
-- Member 1: Brief description or role within the group.
-- Member 2: Brief description or role within the group.
-- ...
-- [Link to more detailed bios or profiles if available.]
+mkdocs build --strict --clean
 
-## Repository Structure
-- **containers/**: Docker configurations for reproducible development environments.
-- **docs/**: Project documentation organized into:
-  - **orientation/**: Onboarding materials and training resources.
-  - **meeting-notes/**: Notes from group meetings.
-  - **code/**: Documentation for data processing, analysis, and visualization.
-  - **manuscript/**: Drafts and manuscript content.
-  - **references/**: Citations and reading notes.
+## Site Health
 
-## Meeting Notes and Agendas
-- Regular updates to keep all group members informed and engaged with the project's progress and direction.
+The site generates a non-blocking health report during the build.
 
-## Contributing to This Repository
-- Contributions from all group members are welcome.
-- Please adhere to these guidelines:
-  - Ensure commits have clear and concise messages.
-  - Document major changes in the meeting notes.
-  - Review and merge changes through pull requests for oversight.
+The report appears at the bottom of the homepage and flags common issues such as missing files, placeholder links, outdated navigation, or incomplete template fields.
 
-## Getting Help
-- If you encounter any issues or have questions, please refer to the [ESIIL Support Page](https://esiil-support-page-url/) or contact the repository maintainers directly.
+Warnings do not prevent the site from publishing. They are intended to help Working Group admins improve the site.
 
-## Customize Your Repository
-- **Edit This Readme**: Update with information specific to your project.
-- **Update Group Member Bios**: Add detailed information about each group member's expertise and role.
-- **Organize Your Code**: Use logical structure and clear naming conventions.
-- **Document Your Data**: Include a data directory with README files for datasets.
-- **Outline Your Methods**: Create a METHODS.md file for methodologies and tools.
-- **Set Up Project Management**: Use 'Issues' and 'Projects' for task tracking.
-- **Add a License**: Include an appropriate open-source license.
-- **Create Contribution Guidelines**: Establish a CONTRIBUTING.md file.
-- **Review and Merge Workflow**: Document your process for reviewing and merging changes.
-- **Establish Communication Channels**: Set up channels like Slack or Discord for discussions.
+## GitHub Pages
 
-Remember, the goal is to make your repository clear, accessible, and useful for all current and future members of your working group. Happy researching!
+This site is automatically built and deployed using GitHub Actions.
