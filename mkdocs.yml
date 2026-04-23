@@ -43,9 +43,7 @@ nav:
 theme:
   highlightjs: true
   name: material
-  font:
-    text: 'Open Sans'
-    code: 'Roboto Mono'
+  font: false
   logo: 'assets/esiil_content/ESIIL_logo.png'
   favicon: 'assets/esiil_content/favicon.ico'
   # setting features for the navigation tab
@@ -62,7 +60,7 @@ theme:
   language: en
   palette:
     # Palette toggle for light mode
-    - media: "(prefers-color-scheme: white)"
+    - media: "(prefers-color-scheme: light)"
       primary: 'white'
       toggle:
         icon: material/weather-night
@@ -82,6 +80,7 @@ extra:
     # link: https://github.com/cu-esiil/
 
 extra_css:
+  - stylesheets/tokens.css
   - stylesheets/extra.css
 
 plugins:
