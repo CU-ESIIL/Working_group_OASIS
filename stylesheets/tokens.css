@@ -1,0 +1,84 @@
+/* Design tokens inspired by ESIIL's calm institutional palette */
+
+:root {
+  --esiil-color-brand-900: #12324a;
+  --esiil-color-brand-800: #18445f;
+  --esiil-color-brand-700: #205b73;
+  --esiil-color-accent-600: #1d7e88;
+  --esiil-color-accent-500: #2d95a1;
+  --esiil-color-green-500: #6f8f57;
+
+  --esiil-color-text: #21313d;
+  --esiil-color-text-muted: #5f7382;
+  --esiil-color-heading: #17344b;
+  --esiil-color-link: #1f6e93;
+  --esiil-color-link-hover: #184e69;
+
+  --esiil-color-bg: #f5f8f7;
+  --esiil-color-bg-soft: #edf4f2;
+  --esiil-color-surface: #ffffff;
+  --esiil-color-surface-tint: #f8fbfc;
+  --esiil-color-border: #d7e2e6;
+  --esiil-color-border-strong: #c1d0d8;
+
+  --esiil-space-1: 0.25rem;
+  --esiil-space-2: 0.5rem;
+  --esiil-space-3: 0.75rem;
+  --esiil-space-4: 1rem;
+  --esiil-space-5: 1.5rem;
+  --esiil-space-6: 2rem;
+  --esiil-space-7: 3rem;
+  --esiil-space-8: 4rem;
+
+  --esiil-text-xs: 0.75rem;
+  --esiil-text-sm: 0.9375rem;
+  --esiil-text-md: 1rem;
+  --esiil-text-lg: 1.125rem;
+  --esiil-text-xl: 1.375rem;
+  --esiil-text-2xl: clamp(1.75rem, 1.35rem + 1.4vw, 2.6rem);
+  --esiil-text-3xl: clamp(2.25rem, 1.7rem + 2vw, 3.5rem);
+
+  --esiil-radius-sm: 0.35rem;
+  --esiil-radius-md: 0.75rem;
+  --esiil-radius-lg: 1.25rem;
+
+  --esiil-shadow-sm: 0 10px 24px rgba(20, 50, 74, 0.06);
+  --esiil-shadow-md: 0 18px 40px rgba(20, 50, 74, 0.09);
+  --esiil-shadow-lg: 0 24px 60px rgba(20, 50, 74, 0.12);
+
+  --esiil-transition-fast: 180ms ease;
+  --esiil-transition-base: 260ms ease;
+
+  --md-primary-fg-color: var(--esiil-color-brand-800);
+  --md-primary-fg-color--light: var(--esiil-color-brand-700);
+  --md-primary-fg-color--dark: #10283a;
+  --md-accent-fg-color: var(--esiil-color-accent-600);
+
+  --md-default-bg-color: var(--esiil-color-bg);
+  --md-default-fg-color: var(--esiil-color-text);
+  --md-default-fg-color--light: var(--esiil-color-text-muted);
+  --md-typeset-color: var(--esiil-color-text);
+  --md-typeset-a-color: var(--esiil-color-link);
+
+  --md-code-bg-color: #eef3f6;
+  --md-code-fg-color: #2d4253;
+
+  --esiil-font-sans: "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --esiil-font-mono: "SFMono-Regular", "SFMono", "Roboto Mono", Consolas, monospace;
+}
+
+[data-md-color-scheme="slate"] {
+  --esiil-color-bg: #10202d;
+  --esiil-color-bg-soft: #173040;
+  --esiil-color-surface: #183242;
+  --esiil-color-surface-tint: #1c3a4d;
+  --esiil-color-text: #dde7ec;
+  --esiil-color-text-muted: #aebfca;
+  --esiil-color-heading: #f2f7fa;
+  --esiil-color-link: #78bfd0;
+  --esiil-color-link-hover: #a7dce8;
+  --esiil-color-border: rgba(196, 214, 224, 0.16);
+  --esiil-color-border-strong: rgba(196, 214, 224, 0.28);
+  --md-code-bg-color: rgba(11, 23, 32, 0.45);
+  --md-code-fg-color: #eaf1f5;
+}
