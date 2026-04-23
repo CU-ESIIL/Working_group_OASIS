@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-label="Start here process placeholder">
+  <rect width="960" height="720" fill="#edf4f2"/>
+  <rect x="114" y="112" width="732" height="496" rx="36" fill="#ffffff" stroke="#d7e2e6" stroke-width="5"/>
+  <circle cx="250" cy="238" r="48" fill="#2d95a1"/>
+  <rect x="340" y="208" width="334" height="34" rx="17" fill="#17344b"/>
+  <rect x="192" y="330" width="570" height="30" rx="15" fill="#c1d0d8"/>
+  <rect x="192" y="392" width="490" height="24" rx="12" fill="#c1d0d8"/>
+  <rect x="192" y="450" width="258" height="74" rx="20" fill="#6f8f57"/>
+</svg>

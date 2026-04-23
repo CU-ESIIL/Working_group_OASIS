@@ -1,23 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">Website side placeholder</title>
-  <desc id="desc">Placeholder art for the homepage website-side image slot.</desc>
-  <defs>
-    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="100%" stop-color="#f5f8f7" />
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="675" fill="#edf4f2" />
-  <rect x="86" y="68" width="1028" height="539" rx="28" fill="url(#card)" stroke="#c1d0d8" stroke-width="3" />
-  <rect x="140" y="126" width="920" height="72" rx="18" fill="#17344b" />
-  <rect x="178" y="152" width="268" height="20" rx="10" fill="#ffffff" opacity="0.9" />
-  <rect x="140" y="238" width="420" height="266" rx="18" fill="#ffffff" stroke="#d7e2e6" />
-  <circle cx="270" cy="340" r="74" fill="#2d95a1" opacity="0.9" />
-  <path d="M238 336 L264 362 L318 304" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
-  <rect x="612" y="238" width="392" height="72" rx="18" fill="#2d95a1" opacity="0.9" />
-  <rect x="612" y="336" width="392" height="24" rx="12" fill="#17344b" opacity="0.88" />
-  <rect x="612" y="382" width="332" height="18" rx="9" fill="#5f7382" opacity="0.5" />
-  <rect x="612" y="420" width="296" height="18" rx="9" fill="#5f7382" opacity="0.34" />
-  <rect x="612" y="464" width="184" height="20" rx="10" fill="#6f8f57" opacity="0.88" />
-  <text x="140" y="572" font-family="Avenir Next, Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#17344b">Website side image slot</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Website side placeholder graphic">
+  <rect width="800" height="800" fill="#edf4f2"/>
+  <rect x="86" y="86" width="628" height="628" rx="40" fill="#ffffff" stroke="#d7e2e6" stroke-width="6"/>
+  <rect x="146" y="146" width="508" height="112" rx="24" fill="#17344b"/>
+  <rect x="146" y="306" width="230" height="230" rx="22" fill="#2d95a1"/>
+  <circle cx="262" cy="422" r="68" fill="#8de0e8"/>
+  <path d="M228 420 L256 448 L306 394" fill="none" stroke="#17344b" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="424" y="316" width="184" height="52" rx="20" fill="#6f8f57"/>
+  <rect x="424" y="398" width="194" height="26" rx="13" fill="#17344b"/>
+  <rect x="424" y="450" width="170" height="20" rx="10" fill="#c1d0d8"/>
+  <rect x="424" y="492" width="136" height="20" rx="10" fill="#c1d0d8"/>
 </svg>

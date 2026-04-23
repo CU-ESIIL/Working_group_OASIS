@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Group collaboration placeholder graphic">
+  <rect width="1200" height="760" fill="#edf4f2"/>
+  <rect x="90" y="86" width="1020" height="588" rx="44" fill="#ffffff" stroke="#d7e2e6" stroke-width="6"/>
+  <circle cx="330" cy="312" r="98" fill="#2d95a1"/>
+  <circle cx="598" cy="258" r="88" fill="#17344b"/>
+  <circle cx="842" cy="324" r="98" fill="#6f8f57"/>
+  <circle cx="458" cy="452" r="84" fill="#8de0e8"/>
+  <circle cx="744" cy="466" r="84" fill="#c1d0d8"/>
+  <path d="M206 586 C292 484 432 478 530 560" fill="none" stroke="#17344b" stroke-width="32" stroke-linecap="round"/>
+  <path d="M522 576 C600 476 738 470 836 566" fill="none" stroke="#2d95a1" stroke-width="32" stroke-linecap="round"/>
+</svg>

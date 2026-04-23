@@ -9,6 +9,8 @@ As the working group progresses, the repository becomes the reproducible record 
 
 ![Placeholder image for the homepage overview][slot-hero]{ .homepage-hero }
 
+--8<-- "_generated/slot_notes/hero.md"
+
 ## Start Here
 
 1. Replace the title and summary with the working group question, the community or scientific need, and the main outputs the group expects to produce.
@@ -34,7 +36,9 @@ The repository has two connected layers. Top-level files configure the project a
 
 ## Repository Side: Do the Science
 
-![Placeholder image for the repository side of the workflow][slot-repository-side]{ .section-image }
+![Placeholder image for the repository side of the workflow][slot-repository-side]{ .slot-button-image }
+
+--8<-- "_generated/slot_notes/repository-side.md"
 
 The repository is the working record of the group: it tracks what changed, why it changed, and how results were produced.
 
@@ -46,7 +50,9 @@ The repository is the working record of the group: it tracks what changed, why i
 
 ## Website Side: Share the Science
 
-![Placeholder image for the website side of the workflow][slot-website-side]{ .section-image }
+![Placeholder image for the website side of the workflow][slot-website-side]{ .slot-button-image }
+
+--8<-- "_generated/slot_notes/website-side.md"
 
 The website turns the working group record into a readable public report.
 
@@ -69,6 +75,12 @@ A working group is live when:
 - At least one analysis or workflow is runnable
 - Outputs are committed to the repository
 - The website explains what the group is doing and why it matters
+
+## Early Process Gallery
+
+Use this section to show how the working group gets started without manually editing image links one by one.
+
+--8<-- "_generated/galleries/root/start-here/index.md"
 
 ## Key Links to Replace
 
@@ -126,6 +138,10 @@ Working Phase: Preparing for Meeting 1
 ## Team Members
 
 Replace this table with names, roles, institutions, and responsibilities so new collaborators know who is doing what.
+
+![Placeholder image representing collaboration and group identity][slot-group-photo]{ .section-image }
+
+--8<-- "_generated/slot_notes/group-photo.md"
 
 | Name | Role | Institution | Responsibilities |
 | --- | --- | --- | --- |

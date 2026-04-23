@@ -37,6 +37,7 @@ Use these rules of thumb when deciding where to put something:
 - `docs/resources.md` is where datasets, references, and code links can be collected.
 - `docs/community-care.md` is where collaboration expectations and group care guidance live.
 - `docs/assets/images/slots/` contains named image slots for the homepage and other shared visuals.
+- `docs/assets/images/process/` contains folder-driven process galleries that render automatically on the site.
 
 ## Preview locally
 
@@ -57,7 +58,7 @@ mkdocs build --strict --clean
 
 ## Swapping homepage images
 
-The homepage uses semantic image slots so Working Group members do not need to edit Markdown links every time an image changes.
+The site uses semantic image slots so Working Group members do not need to edit Markdown links every time an image changes.
 
 1. Open the relevant folder in `docs/assets/images/slots/`.
 2. Delete the old image file.
@@ -65,7 +66,34 @@ The homepage uses semantic image slots so Working Group members do not need to e
 4. Run `python scripts/generate_image_slots.py`.
 5. Commit the image change and the regenerated slot references.
 
-If a slot folder contains multiple images, the generator prefers the first non-placeholder file alphabetically and the site health report will warn you to clean it up.
+If a slot folder contains multiple images, the generator uses the first image alphabetically and the site health report will warn you to clean it up. The cleanest workflow is still one image per slot folder.
+
+## Using process galleries
+
+Process galleries are folder-driven. Add files to a gallery folder, commit them, and the site updates automatically.
+
+1. Open the relevant folder in `docs/assets/images/process/`.
+2. Add images or supported deliverable files.
+3. Optionally add a `captions.txt` file with lines like `filename.png | Caption text`.
+4. Run `python scripts/generate_image_slots.py`.
+5. Commit the new files and the regenerated gallery includes.
+
+Supported image files:
+
+- `.png`
+- `.jpg`
+- `.jpeg`
+- `.webp`
+- `.svg`
+
+Supported linked deliverable files:
+
+- `.pdf`
+- `.html`
+- `.csv`
+- `.xlsx`
+- `.docx`
+- `.pptx`
 
 ## Site Health
 
