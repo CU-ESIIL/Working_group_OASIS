@@ -1,5 +1,44 @@
 Prompt Action Log
 
+2026-04-29
+
+Prompt
+
+User asked: "Add selected Project Group OASIS infrastructure, instruction, and participant-support features to Working Group OASIS, adapted for the longer working-group lifecycle, without replacing the existing Working Group template or adding excluded sprint-oriented features."
+
+Files and folders inspected
+
+* Project_group_OASIS public site and repository listing
+* docs/
+* mkdocs.yml
+* README.md
+* AGENTS.md
+* scripts/
+
+Actions taken
+
+* Added Cloud Triangle guidance for GitHub, compute, and persistent storage.
+* Added JupyterLab/GitHub workflow instructions for linking, pulling, committing, pushing, and resolving simple conflicts.
+* Added persistent storage guidance using GoCommands examples and working-group placeholder paths.
+* Added working-group lifecycle and landmark instruction pages.
+* Added public-facing site and cite/reuse guidance.
+* Exposed new pages under the existing Resources navigation section.
+* Added subtle working-group landmark guidance to the homepage.
+* Updated README and AGENTS.md with additive contributor guidance.
+
+Verification
+
+* Ran `python3 scripts/generate_image_slots.py`.
+* Ran `python3 scripts/site_health.py`.
+* Ran `python3 scripts/check_template.py`.
+* Ran `.venv/bin/mkdocs build --strict --clean`.
+* Checked for excluded Project Group features and event-sprint language in the edited documentation; the only match was a pre-existing `docs/work-plan.md` heading.
+
+Open questions and follow-up
+
+* Confirm the exact shared persistent storage path with ESIIL staff or the working group facilitator.
+* Future visual design could add small landmark stickers, but current labels intentionally remain plain Markdown.
+
 2026-04-23
 
 Prompt
