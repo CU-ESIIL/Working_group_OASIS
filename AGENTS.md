@@ -20,3 +20,12 @@ Guidelines for agents:
 - When adding new features, ensure they do not increase user complexity.
 - Do not add blocking tests for template completeness. Use the site health report for user-facing warnings instead.
 - After meaningful changes, append an entry to PROMPT_ACTION_LOG.md.
+
+Working Group OASIS and Project Group OASIS:
+
+- Working Group OASIS is not the same as Project Group OASIS.
+- Do not replace working-group lifecycle language with event-sprint language.
+- Add Project Group-inspired features additively and adapt them for a longer working-group lifecycle.
+- Keep participant-editable content in Markdown.
+- Keep large data out of GitHub and point users toward persistent storage.
+- Preserve process galleries, image slots, meeting-note templates, site-health checks, and prompt logs.

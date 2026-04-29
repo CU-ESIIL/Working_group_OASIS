@@ -36,6 +36,8 @@ Use these rules of thumb when deciding where to put something:
 - `docs/work-plan.md` is where the group can track milestones, meetings, and active work.
 - `docs/resources.md` is where datasets, references, and code links can be collected.
 - `docs/community-care.md` is where collaboration expectations and group care guidance live.
+- `docs/instructions/` contains practical working group instructions for GitHub, persistent storage, lifecycle phases, and landmarks.
+- `docs/resources/` contains reusable resource guides such as the Cloud Triangle and Cite and Reuse guidance.
 - `docs/assets/images/slots/` contains named image slots for the homepage and other shared visuals.
 - `docs/assets/images/process/` contains folder-driven process galleries that render automatically on the site.
 

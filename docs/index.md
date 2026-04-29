@@ -23,6 +23,14 @@ As the working group progresses, the repository becomes the reproducible record 
 [Document data and resources](resources.md){ .md-button .md-button--secondary }
 [Set community expectations](community-care.md){ .md-button .md-button--secondary }
 
+## Working Group Landmarks
+
+Use these lightweight labels to connect work sessions, meeting notes, and homepage edits:
+
+WG-A People and roles; WG-B Question and scope; WG-C Data and access; WG-D Methods and workflows; WG-E Results and synthesis; WG-F Outputs and handoff.
+
+[Use the landmark guide](instructions/working-group-landmarks.md){ .md-button .md-button--secondary }
+
 ## How This Repo Is Organized
 
 The repository has two connected layers. Top-level files configure the project and its automation. The `docs/` folder contains the website content. `mkdocs.yml` tells MkDocs how to turn that content into the public site. Analysis folders hold the working scientific materials that generate the results shown on the website.
@@ -40,6 +48,8 @@ The repository has two connected layers. Top-level files configure the project a
 
 --8<-- "_generated/slot_notes/repository-side.md"
 
+Related landmarks: WG-C Data and access; WG-D Methods and workflows.
+
 The repository is the working record of the group: it tracks what changed, why it changed, and how results were produced.
 
 - Data sources and metadata
@@ -53,6 +63,8 @@ The repository is the working record of the group: it tracks what changed, why i
 ![Placeholder image for the website side of the workflow][slot-website-side]{ .slot-button-image }
 
 --8<-- "_generated/slot_notes/website-side.md"
+
+Related landmarks: WG-E Results and synthesis; WG-F Outputs and handoff.
 
 The website turns the working group record into a readable public report.
 
@@ -75,6 +87,8 @@ A working group is live when:
 - At least one analysis or workflow is runnable
 - Outputs are committed to the repository
 - The website explains what the group is doing and why it matters
+
+For guidance on turning this scaffold into a public scientific record, see the [Public-Facing Site Guide](public-facing-site-guide.md).
 
 ## Early Process Gallery
 
@@ -138,6 +152,8 @@ Working Phase: Preparing for Meeting 1
 ## Team Members
 
 Replace this table with names, roles, institutions, and responsibilities so new collaborators know who is doing what.
+
+Related landmark: WG-A People and roles.
 
 ![Placeholder image representing collaboration and group identity][slot-group-photo]{ .section-image }
 
