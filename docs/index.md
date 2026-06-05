@@ -124,6 +124,11 @@ Working Phase: Preparing for Meeting 1
 - Notes: [link]
 - Decisions: [link]
 - Next Steps: [link]
+- Summary: [link]
+- Photo: [link]
+  - Name
+  - Name
+  - Name
 
 ### Between Meetings
 
@@ -136,6 +141,11 @@ Working Phase: Preparing for Meeting 1
 - Agenda: [link]
 - Notes: [link]
 - Synthesis direction: [link]
+- Summary: [link]
+- Photo: [link]
+  - Name
+  - Name
+  - Name
 
 ### Outputs and Wrap Up
 

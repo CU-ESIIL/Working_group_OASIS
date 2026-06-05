@@ -142,3 +142,17 @@ Verification
 Open questions and follow-up
 
 * If future template pages are added below another nested directory level, the gallery generator may need one more relative-path variant for those deeper pages.
+
+2026-06-05
+
+Prompt
+
+User asked to add Timeline bullet points under Meeting 1 and Meeting 2 on the homepage for meeting summaries, photos, and attendee lists.
+
+Actions taken
+
+* Added Summary and Photo bullets with placeholder attendee names under Meeting 1 and Meeting 2 in `docs/index.md`.
+
+Verification
+
+* Confirmed the new bullets follow the existing Timeline placeholder link pattern in `docs/index.md`.
