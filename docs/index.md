@@ -28,7 +28,7 @@ Add an overview of who your group is, why you have come together and what questi
 5. Use the website to share progress, methods, and results with collaborators and community audiences.
 
 [Plan the work](#work-plan){ .md-button }
-[Document data and resources](resources.md){ .md-button .md-button--secondary }
+[Document data and resources](#data){ .md-button .md-button--secondary }
 [Set community expectations](community-care.md){ .md-button .md-button--secondary }
 
 ## Working Group Landmarks

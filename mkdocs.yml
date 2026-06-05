@@ -15,8 +15,8 @@ copyright: 'Copyright &copy; 2024 University of Colorado Boulder'
 nav:
   - Home: index.md
   - ESIIL Resources:
-      - Team Trainings: resources.md#team-trainings
-      - ESIIL Code of Conduct: resources.md#esiil-code-of-conduct
+      - Team Trainings: esiil-resources/team-trainings.md
+      - ESIIL Code of Conduct: esiil-resources/code-of-conduct.md
       - Community Care: community-care.md
 
 # Configuration

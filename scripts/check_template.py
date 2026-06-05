@@ -10,7 +10,8 @@ MKDOCS_FILE = ROOT / "mkdocs.yml"
 
 REQUIRED_FILES = [
     ROOT / "docs/index.md",
-    ROOT / "docs/resources.md",
+    ROOT / "docs/esiil-resources/team-trainings.md",
+    ROOT / "docs/esiil-resources/code-of-conduct.md",
     ROOT / "docs/community-care.md",
     MKDOCS_FILE,
     ROOT / "AGENTS.md",

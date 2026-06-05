@@ -35,7 +35,8 @@ REQUIRED_PROCESS_FOLDERS = [
 
 REQUIRED_FILES = [
     ROOT / "docs/index.md",
-    ROOT / "docs/resources.md",
+    ROOT / "docs/esiil-resources/team-trainings.md",
+    ROOT / "docs/esiil-resources/code-of-conduct.md",
     ROOT / "docs/community-care.md",
     ROOT / "mkdocs.yml",
     ROOT / "README.md",

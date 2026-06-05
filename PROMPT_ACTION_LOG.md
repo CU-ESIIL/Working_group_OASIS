@@ -214,3 +214,19 @@ Actions taken
 
 * Removed Evaluation Questions from `docs/resources.md` and `mkdocs.yml` navigation.
 * Updated README to match.
+
+2026-06-05
+
+Prompt
+
+User reported MkDocs strict build failure for anchor links in ESIIL Resources navigation.
+
+Actions taken
+
+* Split Team Trainings and ESIIL Code of Conduct into separate pages under `docs/esiil-resources/`.
+* Updated `mkdocs.yml` navigation to use real page paths instead of `#` anchors.
+* Removed `docs/resources.md` and updated homepage, README, and template health scripts.
+
+Verification
+
+* Ran template integrity check and `mkdocs build --strict --clean`.
