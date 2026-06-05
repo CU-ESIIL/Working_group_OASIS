@@ -10,6 +10,8 @@ MKDOCS_FILE = ROOT / "mkdocs.yml"
 
 REQUIRED_FILES = [
     ROOT / "docs/index.md",
+    ROOT / "docs/work-plan.md",
+    ROOT / "docs/how-this-group-works.md",
     ROOT / "docs/esiil-resources/team-trainings.md",
     ROOT / "docs/esiil-resources/code-of-conduct.md",
     ROOT / "docs/community-care.md",
@@ -19,8 +21,8 @@ REQUIRED_FILES = [
     ROOT / "PROMPT_ACTION_LOG.md",
 ]
 
-ALLOWED_NAV = ["Home", "Work Plan", "ESIIL Resources", "Community Care", "Outputs"]
-REQUIRED_NAV = ["Home", "ESIIL Resources"]
+ALLOWED_NAV = ["Home", "Work Plan", "How This Group Works", "ESIIL and Team Resources", "Community Care", "Outputs"]
+REQUIRED_NAV = ["Home", "Work Plan", "How This Group Works", "ESIIL and Team Resources"]
 DISALLOWED_NAV = ["Art Gallery", "Code of Conduct", "Participant Agreement"]
 
 

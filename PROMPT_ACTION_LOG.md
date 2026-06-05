@@ -242,3 +242,17 @@ Actions taken
 * Removed legacy intro text from `docs/esiil-resources/team-trainings.md`.
 * Added a Collaborator requirements bullet under How This Group Works in `docs/index.md`.
 * Simplified `docs/community-care.md` by removing the gallery, group photo slot, and old bullet list while updating the community care guidance text.
+
+2026-06-05
+
+Prompt
+
+User asked to promote Work Plan and How This Group Works to top-level tabs, rename ESIIL Resources, and add Community Care GitHub links.
+
+Actions taken
+
+* Created `docs/work-plan.md` and `docs/how-this-group-works.md` as separate top-level pages.
+* Removed those sections from `docs/index.md` and updated homepage buttons.
+* Renamed navigation section to ESIIL and Team Resources in `mkdocs.yml`.
+* Added ESIIL Community Care and Team Science GitHub links to `docs/community-care.md`.
+* Updated README and template health scripts for the new navigation layout.

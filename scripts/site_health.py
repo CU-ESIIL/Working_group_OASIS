@@ -35,6 +35,8 @@ REQUIRED_PROCESS_FOLDERS = [
 
 REQUIRED_FILES = [
     ROOT / "docs/index.md",
+    ROOT / "docs/work-plan.md",
+    ROOT / "docs/how-this-group-works.md",
     ROOT / "docs/esiil-resources/team-trainings.md",
     ROOT / "docs/esiil-resources/code-of-conduct.md",
     ROOT / "docs/community-care.md",
@@ -50,10 +52,9 @@ PLACEHOLDERS = {
     "TBD": "TBD placeholder",
     "Short one-sentence description": "homepage description placeholder",
     "Name | Role": "people table placeholder",
-    "GitHub Community Care Page Link": "community care link placeholder",
 }
 
-REQUIRED_NAV = ["Home", "Work Plan", "ESIIL Resources"]
+REQUIRED_NAV = ["Home", "Work Plan", "How This Group Works", "ESIIL and Team Resources"]
 DEPRECATED_NAV = ["Art Gallery", "Code of Conduct", "Participant Agreement"]
 TEXT_FILES = [ROOT / "README.md", ROOT / "AGENTS.md", ROOT / "PROMPT_ACTION_LOG.md", MKDOCS]
 

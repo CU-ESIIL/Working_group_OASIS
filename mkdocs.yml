@@ -14,7 +14,9 @@ copyright: 'Copyright &copy; 2024 University of Colorado Boulder'
 # Page tree
 nav:
   - Home: index.md
-  - ESIIL Resources:
+  - Work Plan: work-plan.md
+  - How This Group Works: how-this-group-works.md
+  - ESIIL and Team Resources:
       - Team Trainings: esiil-resources/team-trainings.md
       - ESIIL Code of Conduct: esiil-resources/code-of-conduct.md
       - Community Care: community-care.md

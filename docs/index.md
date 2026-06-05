@@ -27,8 +27,8 @@ Add an overview of who your group is, why you have come together and what questi
 4. Commit figures, tables, notes, and summaries so the work is versioned and reproducible.
 5. Use the website to share progress, methods, and results with collaborators and community audiences.
 
-[Plan the work](#work-plan){ .md-button }
-[Document data and resources](#data){ .md-button .md-button--secondary }
+[Plan the work](work-plan.md){ .md-button }
+[Document data and resources](how-this-group-works.md#data){ .md-button .md-button--secondary }
 [Set community expectations](community-care.md){ .md-button .md-button--secondary }
 
 ## Working Group Landmarks
@@ -117,110 +117,6 @@ Use this section for the links your group will actually maintain. Replace each p
 
 Working Phase: Preparing for Meeting 1  
 (Replace this line with the phase your group is actually in, such as working asynchronously, preparing outputs, or revising a manuscript.)
-
-## Work Plan
-
-### Kickoff
-
-- Define goals and questions
-- Identify key data and resources
-- Set up communication and workflow
-
-### Meeting 1
-
-- Agenda: [link]
-- Summary: Have your team write up at least 1 paragraph on the primary accomplishments of the meeting and where you will be going prior to meeting 2.
-- Decisions: [link]
-- Next Steps: [link]
-- Photo: [link]
-  - Name
-  - Name
-  - Name
-
-### Between Meetings
-
-Between meetings, please provide a synopsis of what you all were working on, such as sub-working group tasks or works in progress (about 1 paragraph long).
-
-- Active work: [link]
-- Shared documents: [link]
-- Data and code updates: [link]
-
-### Meeting 2
-
-- Agenda: [link]
-- Summary: Have your team write up at least 1 paragraph on the primary accomplishments of the meeting and where you will be going after the working group concludes.
-- Synthesis direction: [link]
-- Photo: [link]
-  - Name
-  - Name
-  - Name
-
-### Outputs and Wrap Up
-
-For outputs of the team, please ensure you have the full list of authors of any product. For example, if you publish a paper, please list all the authors instead of using et al. If you list a presentation, list all the authors, the title, and conference, and so on. It should be clear at a glance who was a final contributing author on any group product (e.g., paper, presentation, tool, database, educational materials, etc.).
-
-- Final outputs: [link]
-- Manuscripts or products: [link]
-- Archive resources: [link]
-
-![Placeholder image representing final outputs and synthesis products][slot-outputs]{ .slot-square-image }
-
---8<-- "_generated/slot_notes/outputs.md"
-
-#### Outputs Gallery
-
---8<-- "_generated/galleries/root/outputs/index.md"
-
-## How This Group Works
-
-- Communication: Replace with your Slack channel, email list, or other main communication space.
-- Documents: Replace with the shared drive, GitHub project board, or notebook the group will maintain.
-- Meetings: Replace with the meeting schedule, format, and where agendas or notes are stored.
-- Collaboration plan: Add your working group collaboration plan, including group norms.
-- Collaborator requirements (non-team members): Add guidelines for how someone can join your work.
-
-### Working Group Guides
-
-- [Cloud Triangle: GitHub, Compute, and Persistent Storage](resources/cloud-triangle.md)
-- [Cite and Reuse](resources/cite-and-reuse.md)
-- [Public-Facing Site Guide](public-facing-site-guide.md)
-- [Working Group Lifecycle](instructions/working-group-lifecycle.md)
-- [Working Group Landmarks](instructions/working-group-landmarks.md)
-- [Link JupyterLab to GitHub](instructions/link-to-github.md)
-- [Push and Pull with GitHub](instructions/push-to-github.md)
-- [Save Files to Persistent Storage](instructions/save-to-persistent-storage.md)
-
-### Data
-
-- [link]
-- [link]
-
-![Placeholder image representing data sources and metadata][slot-data]{ .slot-square-image }
-
---8<-- "_generated/slot_notes/data.md"
-
-#### Data Gallery
-
---8<-- "_generated/galleries/root/data/index.md"
-
-### Code
-
-- [link]
-- [link]
-
-### Methods
-
-![Placeholder image representing analysis methods and notebooks][slot-analysis]{ .slot-square-image }
-
---8<-- "_generated/slot_notes/analysis.md"
-
-#### Methods Gallery
-
---8<-- "_generated/galleries/root/methods/index.md"
-
-#### Exploration Gallery
-
---8<-- "_generated/galleries/root/exploration/index.md"
 
 ## Team Members
 
