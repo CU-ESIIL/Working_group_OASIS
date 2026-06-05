@@ -1,63 +1,13 @@
-# Resources
+# ESIIL Resources
 
 Use this page to collect links and visual artifacts that help new collaborators understand the data and methods behind the project.
 
-## Working Group Guides
+Add guidelines for potential collaborators.
 
-- [Cloud Triangle: GitHub, Compute, and Persistent Storage](resources/cloud-triangle.md)
-- [Cite and Reuse](resources/cite-and-reuse.md)
-- [Public-Facing Site Guide](public-facing-site-guide.md)
-- [Working Group Lifecycle](instructions/working-group-lifecycle.md)
-- [Working Group Landmarks](instructions/working-group-landmarks.md)
-- [Link JupyterLab to GitHub](instructions/link-to-github.md)
-- [Push and Pull with GitHub](instructions/push-to-github.md)
-- [Save Files to Persistent Storage](instructions/save-to-persistent-storage.md)
+## Team Trainings
 
-## Working Documents
-- [link]
-- [link]
+Add here any trainings that working group members should complete. That could be on coding, how to collaborate, etc. These are trainings that the team has curated for themselves. Under the Community Care tab you will find specific ESIIL trainings that may be of use to your team.
 
-## Data
-- [link]
-- [link]
+## ESIIL Code of Conduct
 
-![Placeholder image representing data sources and metadata][slot-data]{ .slot-square-image }
-
---8<-- "_generated/slot_notes/data.md"
-
-### Data Gallery
-
---8<-- "_generated/galleries/child/data/index.md"
-
-## Code
-- [link]
-- [link]
-
-## Methods
-
-![Placeholder image representing analysis methods and notebooks][slot-analysis]{ .slot-square-image }
-
---8<-- "_generated/slot_notes/analysis.md"
-
-### Methods Gallery
-
---8<-- "_generated/galleries/child/methods/index.md"
-
-### Exploration Gallery
-
---8<-- "_generated/galleries/child/exploration/index.md"
-
-## Training
-- [link]
-- [link]
-
-## References
-- [link]
-- [link]
-
-## Evaluation Questions
-- [link or short list]
-
-## Deliverables Library
-
---8<-- "_generated/galleries/child/deliverables/index.md"
+[ESIIL Code of Conduct and Community Collaboration Guidelines](https://zenodo.org/records/18407077){ target="_blank" }

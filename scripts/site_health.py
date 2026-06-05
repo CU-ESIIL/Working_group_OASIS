@@ -52,7 +52,7 @@ PLACEHOLDERS = {
     "GitHub Community Care Page Link": "community care link placeholder",
 }
 
-REQUIRED_NAV = ["Home", "Work Plan", "Resources", "Community Care"]
+REQUIRED_NAV = ["Home", "Work Plan", "ESIIL Resources"]
 DEPRECATED_NAV = ["Art Gallery", "Code of Conduct", "Participant Agreement"]
 TEXT_FILES = [ROOT / "README.md", ROOT / "AGENTS.md", ROOT / "PROMPT_ACTION_LOG.md", MKDOCS]
 

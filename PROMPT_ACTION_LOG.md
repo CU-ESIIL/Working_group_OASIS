@@ -183,3 +183,34 @@ User asked to add guidance text under Between Meetings and Outputs and Wrap Up, 
 Actions taken
 
 * Added between-meetings synopsis guidance, full-author output guidance above Outputs and Wrap Up bullets, and a Collaboration plan bullet in `docs/index.md`.
+
+2026-06-05
+
+Prompt
+
+User asked to reorganize homepage navigation, move resource content under How This Group Works, rename Resources to ESIIL Resources, and consolidate Community Care and ESIIL guidance links.
+
+Actions taken
+
+* Added Working Group Title and Working Group Abstract sections to `docs/index.md`.
+* Moved Working Group Guides through Exploration Gallery under How This Group Works on the homepage.
+* Rebuilt `docs/resources.md` as ESIIL Resources with Team Trainings, Evaluation Questions, and an external ESIIL Code of Conduct link.
+* Removed Working Documents, References, and Deliverables Library from the resources page.
+* Updated `mkdocs.yml` navigation to nest Community Care under ESIIL Resources.
+* Fixed ESIIL Resources navigation so Team Trainings, Evaluation Questions, ESIIL Code of Conduct, and Community Care appear as subtabs instead of a duplicate ESIIL Resources entry.
+* Updated README and template health scripts for the new navigation labels.
+
+Verification
+
+* Ran template integrity and site health scripts.
+
+2026-06-05
+
+Prompt
+
+User asked to remove Evaluation Questions from ESIIL Resources.
+
+Actions taken
+
+* Removed Evaluation Questions from `docs/resources.md` and `mkdocs.yml` navigation.
+* Updated README to match.

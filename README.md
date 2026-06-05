@@ -32,9 +32,9 @@ Use these rules of thumb when deciding where to put something:
 
 ## Common places to edit
 
-- `docs/index.md` is the homepage for the public site, including the Work Plan section for milestones, meetings, and active work.
-- `docs/resources.md` is where datasets, references, and code links can be collected.
-- `docs/community-care.md` is where collaboration expectations and group care guidance live.
+- `docs/index.md` is the homepage for the public site, including the Work Plan, group collaboration materials, and data and methods galleries.
+- `docs/resources.md` is the ESIIL Resources page for team trainings and ESIIL-wide guidance links.
+- `docs/community-care.md` is nested under ESIIL Resources and holds collaboration expectations and group care guidance.
 - `docs/instructions/` contains practical working group instructions for GitHub, persistent storage, lifecycle phases, and landmarks.
 - `docs/resources/` contains reusable resource guides such as the Cloud Triangle and Cite and Reuse guidance.
 - `docs/assets/images/slots/` contains named image slots for the homepage and other shared visuals.

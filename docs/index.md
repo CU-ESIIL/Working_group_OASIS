@@ -1,4 +1,8 @@
-# Working Group Title
+# Home
+
+## Working Group Title
+
+Working Group Title
 
 This working group runs as a single system: a GitHub repository where environmental data science is organized, analyzed, and versioned, and a public website where results are explained and shared with the community.
 
@@ -10,6 +14,10 @@ As the working group progresses, the repository becomes the reproducible record 
 ![Placeholder image for the homepage overview][slot-hero]{ .homepage-hero }
 
 --8<-- "_generated/slot_notes/hero.md"
+
+## Working Group Abstract
+
+Add an overview of who your group is, why you have come together and what questions you are answering. This is very similar to your working group description on the esiil website.
 
 ## Start Here
 
@@ -169,6 +177,49 @@ For outputs of the team, please ensure you have the full list of authors of any 
 - Documents: Replace with the shared drive, GitHub project board, or notebook the group will maintain.
 - Meetings: Replace with the meeting schedule, format, and where agendas or notes are stored.
 - Collaboration plan: Add your working group collaboration plan, including group norms.
+
+### Working Group Guides
+
+- [Cloud Triangle: GitHub, Compute, and Persistent Storage](resources/cloud-triangle.md)
+- [Cite and Reuse](resources/cite-and-reuse.md)
+- [Public-Facing Site Guide](public-facing-site-guide.md)
+- [Working Group Lifecycle](instructions/working-group-lifecycle.md)
+- [Working Group Landmarks](instructions/working-group-landmarks.md)
+- [Link JupyterLab to GitHub](instructions/link-to-github.md)
+- [Push and Pull with GitHub](instructions/push-to-github.md)
+- [Save Files to Persistent Storage](instructions/save-to-persistent-storage.md)
+
+### Data
+
+- [link]
+- [link]
+
+![Placeholder image representing data sources and metadata][slot-data]{ .slot-square-image }
+
+--8<-- "_generated/slot_notes/data.md"
+
+#### Data Gallery
+
+--8<-- "_generated/galleries/root/data/index.md"
+
+### Code
+
+- [link]
+- [link]
+
+### Methods
+
+![Placeholder image representing analysis methods and notebooks][slot-analysis]{ .slot-square-image }
+
+--8<-- "_generated/slot_notes/analysis.md"
+
+#### Methods Gallery
+
+--8<-- "_generated/galleries/root/methods/index.md"
+
+#### Exploration Gallery
+
+--8<-- "_generated/galleries/root/exploration/index.md"
 
 ## Team Members
 

@@ -14,19 +14,10 @@ copyright: 'Copyright &copy; 2024 University of Colorado Boulder'
 # Page tree
 nav:
   - Home: index.md
-  - Resources:
-      - Resources Overview: resources.md
-      - Public-Facing Site Guide: public-facing-site-guide.md
-      - Instructions:
-          - Working Group Lifecycle: instructions/working-group-lifecycle.md
-          - Working Group Landmarks: instructions/working-group-landmarks.md
-          - Link to GitHub: instructions/link-to-github.md
-          - Push to GitHub: instructions/push-to-github.md
-          - Save to Persistent Storage: instructions/save-to-persistent-storage.md
-      - Resource Guides:
-          - Cloud Triangle: resources/cloud-triangle.md
-          - Cite and Reuse: resources/cite-and-reuse.md
-  - Community Care: community-care.md
+  - ESIIL Resources:
+      - Team Trainings: resources.md#team-trainings
+      - ESIIL Code of Conduct: resources.md#esiil-code-of-conduct
+      - Community Care: community-care.md
 
 # Configuration
 theme:

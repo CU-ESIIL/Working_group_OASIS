@@ -6,8 +6,6 @@ Site Health
 
 ⚠ Placeholder detected: people table placeholder in docs/index.md
 
-⚠ Placeholder detected: generic placeholder link in docs/resources.md
-
 ⚠ Navigation issue: missing nav item 'Work Plan'.
 
 

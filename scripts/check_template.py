@@ -18,8 +18,8 @@ REQUIRED_FILES = [
     ROOT / "PROMPT_ACTION_LOG.md",
 ]
 
-ALLOWED_NAV = ["Home", "Work Plan", "Resources", "Community Care", "Outputs"]
-REQUIRED_NAV = ["Home", "Resources", "Community Care"]
+ALLOWED_NAV = ["Home", "Work Plan", "ESIIL Resources", "Community Care", "Outputs"]
+REQUIRED_NAV = ["Home", "ESIIL Resources"]
 DISALLOWED_NAV = ["Art Gallery", "Code of Conduct", "Participant Agreement"]
 
 
