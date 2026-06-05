@@ -8,7 +8,7 @@ Site Health
 
 ⚠ Placeholder detected: generic placeholder link in docs/resources.md
 
-⚠ Placeholder detected: generic placeholder link in docs/work-plan.md
+⚠ Navigation issue: missing nav item 'Work Plan'.
 
 
 This report is generated automatically during the site build. Fix these items in the repository to improve the site.

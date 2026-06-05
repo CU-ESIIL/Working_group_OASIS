@@ -10,7 +10,6 @@ MKDOCS_FILE = ROOT / "mkdocs.yml"
 
 REQUIRED_FILES = [
     ROOT / "docs/index.md",
-    ROOT / "docs/work-plan.md",
     ROOT / "docs/resources.md",
     ROOT / "docs/community-care.md",
     MKDOCS_FILE,
@@ -20,7 +19,7 @@ REQUIRED_FILES = [
 ]
 
 ALLOWED_NAV = ["Home", "Work Plan", "Resources", "Community Care", "Outputs"]
-REQUIRED_NAV = ["Home", "Work Plan", "Resources", "Community Care"]
+REQUIRED_NAV = ["Home", "Resources", "Community Care"]
 DISALLOWED_NAV = ["Art Gallery", "Code of Conduct", "Participant Agreement"]
 
 

@@ -156,3 +156,20 @@ Actions taken
 Verification
 
 * Confirmed the new bullets follow the existing Timeline placeholder link pattern in `docs/index.md`.
+
+2026-06-05
+
+Prompt
+
+User asked to revise Meeting 1 and Meeting 2 bullets, remove Site Health from the homepage, rename Timeline to Work Plan on the homepage, remove the separate Work Plan page, and move the Outputs Gallery into Outputs and Wrap Up.
+
+Actions taken
+
+* Updated Meeting 1 and Meeting 2 summary bullets with participant guidance text and removed Notes from both sections.
+* Renamed `## Timeline` to `## Work Plan` in `docs/index.md`, added Outputs Gallery content under Outputs and Wrap Up, and removed the Site Health section.
+* Removed `Work Plan` from `mkdocs.yml` navigation and deleted `docs/work-plan.md`.
+* Updated homepage button, README, landmarks guide, and template health scripts to match the consolidated Work Plan layout.
+
+Verification
+
+* Ran template and site health scripts plus `mkdocs build --strict --clean`.

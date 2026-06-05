@@ -7,7 +7,7 @@ Working group landmarks are lightweight labels that connect instruction pages to
 | Label | Meaning | Common homepage or repo location |
 | --- | --- | --- |
 | WG-A | People and roles | Team Members, community expectations, meeting notes |
-| WG-B | Question and scope | Homepage title, Start Here, Current Phase, Timeline |
+| WG-B | Question and scope | Homepage title, Start Here, Current Phase, Work Plan |
 | WG-C | Data and access | Resources, Cloud Triangle notes, persistent storage README files |
 | WG-D | Methods and workflows | Repository Side, Work Plan, scripts, notebooks, workflow galleries |
 | WG-E | Results and synthesis | Website Side, outputs galleries, synthesis notes |
@@ -46,7 +46,7 @@ The current homepage already has natural places for these labels:
 - Start Here and Current Phase: WG-B Question and scope.
 - Repository Side and Resources: WG-C Data and access; WG-D Methods and workflows.
 - Website Side and Outputs sections: WG-E Results and synthesis; WG-F Outputs and handoff.
-- Timeline: all landmarks, depending on the phase.
+- Work Plan: all landmarks, depending on the phase.
 
 Keep labels subtle. A short line is enough. Do not clutter the homepage with repeated badges.
 

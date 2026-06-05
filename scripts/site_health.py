@@ -35,7 +35,6 @@ REQUIRED_PROCESS_FOLDERS = [
 
 REQUIRED_FILES = [
     ROOT / "docs/index.md",
-    ROOT / "docs/work-plan.md",
     ROOT / "docs/resources.md",
     ROOT / "docs/community-care.md",
     ROOT / "mkdocs.yml",

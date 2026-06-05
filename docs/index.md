@@ -19,7 +19,7 @@ As the working group progresses, the repository becomes the reproducible record 
 4. Commit figures, tables, notes, and summaries so the work is versioned and reproducible.
 5. Use the website to share progress, methods, and results with collaborators and community audiences.
 
-[Plan the work](work-plan.md){ .md-button }
+[Plan the work](#work-plan){ .md-button }
 [Document data and resources](resources.md){ .md-button .md-button--secondary }
 [Set community expectations](community-care.md){ .md-button .md-button--secondary }
 
@@ -110,7 +110,7 @@ Use this section for the links your group will actually maintain. Replace each p
 Working Phase: Preparing for Meeting 1  
 (Replace this line with the phase your group is actually in, such as working asynchronously, preparing outputs, or revising a manuscript.)
 
-## Timeline
+## Work Plan
 
 ### Kickoff
 
@@ -121,10 +121,9 @@ Working Phase: Preparing for Meeting 1
 ### Meeting 1
 
 - Agenda: [link]
-- Notes: [link]
+- Summary: Have your team write up at least 1 paragraph on the primary accomplishments of the meeting and where you will be going prior to meeting 2.
 - Decisions: [link]
 - Next Steps: [link]
-- Summary: [link]
 - Photo: [link]
   - Name
   - Name
@@ -139,9 +138,8 @@ Working Phase: Preparing for Meeting 1
 ### Meeting 2
 
 - Agenda: [link]
-- Notes: [link]
+- Summary: Have your team write up at least 1 paragraph on the primary accomplishments of the meeting and where you will be going after the working group concludes.
 - Synthesis direction: [link]
-- Summary: [link]
 - Photo: [link]
   - Name
   - Name
@@ -152,6 +150,14 @@ Working Phase: Preparing for Meeting 1
 - Final outputs: [link]
 - Manuscripts or products: [link]
 - Archive resources: [link]
+
+![Placeholder image representing final outputs and synthesis products][slot-outputs]{ .slot-square-image }
+
+--8<-- "_generated/slot_notes/outputs.md"
+
+#### Outputs Gallery
+
+--8<-- "_generated/galleries/root/outputs/index.md"
 
 ## How This Group Works
 
@@ -173,9 +179,5 @@ Related landmark: WG-A People and roles.
 | --- | --- | --- | --- |
 | Name | Role | Institution | Responsibilities |
 | Name | Role | Institution | Responsibilities |
-
-## Site Health
-
---8<-- "_site_health.md"
 
 --8<-- "_generated/image_slots.md"

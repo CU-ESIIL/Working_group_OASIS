@@ -32,8 +32,7 @@ Use these rules of thumb when deciding where to put something:
 
 ## Common places to edit
 
-- `docs/index.md` is the homepage for the public site.
-- `docs/work-plan.md` is where the group can track milestones, meetings, and active work.
+- `docs/index.md` is the homepage for the public site, including the Work Plan section for milestones, meetings, and active work.
 - `docs/resources.md` is where datasets, references, and code links can be collected.
 - `docs/community-care.md` is where collaboration expectations and group care guidance live.
 - `docs/instructions/` contains practical working group instructions for GitHub, persistent storage, lifecycle phases, and landmarks.
@@ -101,7 +100,7 @@ Supported linked deliverable files:
 
 The site generates a non-blocking health report during the build.
 
-The report appears at the bottom of the homepage and flags common issues such as missing files, placeholder links, outdated navigation, or incomplete template fields.
+The report flags common issues such as missing files, placeholder links, outdated navigation, or incomplete template fields.
 
 Warnings do not prevent the site from publishing. They are intended to help Working Group admins improve the site.
 
