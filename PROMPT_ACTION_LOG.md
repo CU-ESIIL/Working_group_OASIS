@@ -173,3 +173,13 @@ Actions taken
 Verification
 
 * Ran template and site health scripts plus `mkdocs build --strict --clean`.
+
+2026-06-05
+
+Prompt
+
+User asked to add guidance text under Between Meetings and Outputs and Wrap Up, and a collaboration plan bullet under How This Group Works.
+
+Actions taken
+
+* Added between-meetings synopsis guidance, full-author output guidance above Outputs and Wrap Up bullets, and a Collaboration plan bullet in `docs/index.md`.

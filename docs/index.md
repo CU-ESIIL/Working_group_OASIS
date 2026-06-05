@@ -131,6 +131,8 @@ Working Phase: Preparing for Meeting 1
 
 ### Between Meetings
 
+Between meetings, please provide a synopsis of what you all were working on, such as sub-working group tasks or works in progress (about 1 paragraph long).
+
 - Active work: [link]
 - Shared documents: [link]
 - Data and code updates: [link]
@@ -146,6 +148,8 @@ Working Phase: Preparing for Meeting 1
   - Name
 
 ### Outputs and Wrap Up
+
+For outputs of the team, please ensure you have the full list of authors of any product. For example, if you publish a paper, please list all the authors instead of using et al. If you list a presentation, list all the authors, the title, and conference, and so on. It should be clear at a glance who was a final contributing author on any group product (e.g., paper, presentation, tool, database, educational materials, etc.).
 
 - Final outputs: [link]
 - Manuscripts or products: [link]
@@ -164,6 +168,7 @@ Working Phase: Preparing for Meeting 1
 - Communication: Replace with your Slack channel, email list, or other main communication space.
 - Documents: Replace with the shared drive, GitHub project board, or notebook the group will maintain.
 - Meetings: Replace with the meeting schedule, format, and where agendas or notes are stored.
+- Collaboration plan: Add your working group collaboration plan, including group norms.
 
 ## Team Members
 
