@@ -230,3 +230,15 @@ Actions taken
 Verification
 
 * Ran template integrity check and `mkdocs build --strict --clean`.
+
+2026-06-05
+
+Prompt
+
+User asked to revise Team Trainings, How This Group Works, and Community Care content.
+
+Actions taken
+
+* Removed legacy intro text from `docs/esiil-resources/team-trainings.md`.
+* Added a Collaborator requirements bullet under How This Group Works in `docs/index.md`.
+* Simplified `docs/community-care.md` by removing the gallery, group photo slot, and old bullet list while updating the community care guidance text.

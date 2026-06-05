@@ -177,6 +177,7 @@ For outputs of the team, please ensure you have the full list of authors of any 
 - Documents: Replace with the shared drive, GitHub project board, or notebook the group will maintain.
 - Meetings: Replace with the meeting schedule, format, and where agendas or notes are stored.
 - Collaboration plan: Add your working group collaboration plan, including group norms.
+- Collaborator requirements (non-team members): Add guidelines for how someone can join your work.
 
 ### Working Group Guides
 
