@@ -1,5 +1,5 @@
 # Home
-
+This is a template.
 ## Working Group Title
 
 Working Group Title
